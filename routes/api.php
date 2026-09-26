@@ -15,8 +15,11 @@ use App\Http\Controllers\Api\V1\SarWorkflowApiController;
 use App\Http\Controllers\Api\V1\SarReportExportApiController;
 use App\Http\Controllers\Api\V1\StudentMarksCsvController;
 use App\Http\Controllers\Api\V1\AssessmentBlueprintController;
+use App\Http\Controllers\Api\V1\CriterionScoreApiController;
+use App\Http\Controllers\Api\V1\AcademicAuditApiController;
 
 Route::prefix('v1')->group(function () {
+
     // 1. Authentication & Session
     Route::prefix('auth')->group(function () {
         Route::post('/login', [AuthController::class, 'login']);
@@ -31,19 +34,21 @@ Route::prefix('v1')->group(function () {
         Route::put('/{id}', [StaffManagementApiController::class, 'update']);
         Route::post('/{id}/toggle-status', [StaffManagementApiController::class, 'toggleStatus']);
         Route::delete('/{id}', [StaffManagementApiController::class, 'destroy']);
-        Route::post(
-    '/assessments/{assessmentBatch}/marks/upload',
-    [StudentMarksCsvController::class, 'upload']
-);
-Route::post(
-    '/assessments/blueprint',
-    [AssessmentBlueprintController::class, 'store']
-);
 
-Route::get(
-    '/assessments/{assessmentBatch}/blueprint',
-    [AssessmentBlueprintController::class, 'show']
-);
+        Route::post(
+            '/assessments/{assessmentBatch}/marks/upload',
+            [StudentMarksCsvController::class, 'upload']
+        );
+
+        Route::post(
+            '/assessments/blueprint',
+            [AssessmentBlueprintController::class, 'store']
+        );
+
+        Route::get(
+            '/assessments/{assessmentBatch}/blueprint',
+            [AssessmentBlueprintController::class, 'show']
+        );
     });
 
     // 3. System Settings & Branding (Super Admin)
@@ -64,17 +69,33 @@ Route::get(
     });
 
     // 5. Direct & Indirect Attainment Mark Logging
-   Route::prefix('attainment')->group(function () {
-    Route::post('/record-marks', [AssessmentEntryApiController::class, 'recordMarks']);
-    Route::post('/record-survey', [AssessmentEntryApiController::class, 'recordSurvey']);
-    Route::get('/surveys', [AssessmentEntryApiController::class, 'surveys']);
-    Route::get('/survey-options', [AssessmentEntryApiController::class, 'surveyOptions']);
-    Route::put('/surveys/{id}', [AssessmentEntryApiController::class, 'updateSurvey']);
-    Route::delete('/surveys/{id}', [AssessmentEntryApiController::class, 'destroySurvey']);
-});
+    Route::prefix('attainment')->group(function () {
+        Route::post('/record-marks', [AssessmentEntryApiController::class, 'recordMarks']);
+        Route::post('/record-survey', [AssessmentEntryApiController::class, 'recordSurvey']);
+        Route::get('/surveys', [AssessmentEntryApiController::class, 'surveys']);
+        Route::get('/survey-options', [AssessmentEntryApiController::class, 'surveyOptions']);
+        Route::put('/surveys/{id}', [AssessmentEntryApiController::class, 'updateSurvey']);
+        Route::delete('/surveys/{id}', [AssessmentEntryApiController::class, 'destroySurvey']);
+    });
+
+    // NBA SAR Criterion Scores
+    Route::get(
+        '/sar/criterion-scores',
+        [CriterionScoreApiController::class, 'index']
+    );
+
+    // NBA Readiness
+    Route::get(
+        '/sar/nba-readiness',
+        [\App\Http\Controllers\Api\V1\NbaReadinessApiController::class, 'index']
+    );
+
+    // Academic Audits CRUD
+    Route::apiResource('academic-audits', AcademicAuditApiController::class);
 
     // 6. NBA SAR Engines & Matrices
     Route::prefix('nba')->group(function () {
+
         // Executive Dashboard & Overview
         Route::get('/dashboard', [NbaDashboardApiController::class, 'index']);
 
@@ -89,7 +110,7 @@ Route::get(
         Route::get('/program-matrix', [ArticulationMatrixApiController::class, 'getProgramMatrix']);
         Route::post('/update-mapping', [ArticulationMatrixApiController::class, 'updateMapping']);
 
-        // Criterion 3: Attainment (Direct, Indirect, Final PO Attainment)
+        // Criterion 3: Attainment
         Route::get('/attainment/final', [AttainmentApiController::class, 'getFinalAttainment']);
         Route::get('/attainment/course/{courseId}', [AttainmentApiController::class, 'getCourseDirectAttainment']);
         Route::get('/attainment/course/{courseId}/performance', [AttainmentApiController::class, 'getCoursePerformance']);
@@ -102,12 +123,30 @@ Route::get(
         Route::post('/workflow/{reportId}/transition', [SarWorkflowApiController::class, 'transition']);
 
         // SAR Evidence
-        Route::get('/workflow/{reportId}/criteria/{criterionId}/evidence', [\App\Http\Controllers\Api\V1\SarEvidenceApiController::class, 'index']);
-        Route::post('/workflow/{reportId}/criteria/{criterionId}/evidence', [\App\Http\Controllers\Api\V1\SarEvidenceApiController::class, 'upload']);
-        Route::delete('/evidence/{evidenceId}', [\App\Http\Controllers\Api\V1\SarEvidenceApiController::class, 'destroy']);
-        Route::get('/evidence/{evidenceId}/download', [\App\Http\Controllers\Api\V1\SarEvidenceApiController::class, 'download']);
+        Route::get(
+            '/workflow/{reportId}/criteria/{criterionId}/evidence',
+            [\App\Http\Controllers\Api\V1\SarEvidenceApiController::class, 'index']
+        );
+
+        Route::post(
+            '/workflow/{reportId}/criteria/{criterionId}/evidence',
+            [\App\Http\Controllers\Api\V1\SarEvidenceApiController::class, 'upload']
+        );
+
+        Route::delete(
+            '/evidence/{evidenceId}',
+            [\App\Http\Controllers\Api\V1\SarEvidenceApiController::class, 'destroy']
+        );
+
+        Route::get(
+            '/evidence/{evidenceId}/download',
+            [\App\Http\Controllers\Api\V1\SarEvidenceApiController::class, 'download']
+        );
 
         // Export Full SAR Report
-        Route::get('/export/{reportId}', [SarReportExportApiController::class, 'getFullDocument']);
+        Route::get(
+            '/export/{reportId}',
+            [SarReportExportApiController::class, 'getFullDocument']
+        );
     });
 });
