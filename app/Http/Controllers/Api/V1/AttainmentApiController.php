@@ -89,6 +89,73 @@ class AttainmentApiController extends Controller
     }
 
     /**
+     * Get CO-wise Year-on-Year Trends
+     */
+    public function getCoTrends(Request $request): JsonResponse
+    {
+        $courseId = $request->query('course_id');
+        if (!$courseId) {
+            return response()->json(['success' => false, 'message' => 'course_id is required'], 400);
+        }
+
+        $course = Course::with('courseOutcomes', 'program')->find($courseId);
+        if (!$course) {
+            return response()->json(['success' => false, 'message' => 'Course not found'], 404);
+        }
+
+        $res = $this->directService->computeCoTrendsYearOnYear($course);
+
+        return response()->json([
+            'success' => true,
+            'data' => $res,
+        ]);
+    }
+
+    /**
+     * Get Question-wise CIE Marks Heatmap
+     */
+    public function getCieHeatmap(Request $request): JsonResponse
+    {
+        $courseId = $request->query('course_id');
+        if (!$courseId) {
+            return response()->json(['success' => false, 'message' => 'course_id is required'], 400);
+        }
+
+        $course = Course::find($courseId);
+        if (!$course) {
+            return response()->json(['success' => false, 'message' => 'Course not found'], 404);
+        }
+
+        $res = $this->directService->getCieHeatmap($course);
+
+        return response()->json([
+            'success' => true,
+            'data' => $res,
+        ]);
+    }
+
+    /**
+     * Get Low-Attainment Alerts Engine
+     */
+    public function getLowAttainmentAlerts(Request $request): JsonResponse
+    {
+        $programId = $request->query('program_id');
+        $program = $programId ? Program::find($programId) : Program::first();
+        $year = AcademicYear::where('type', 'CAY')->first() ?? AcademicYear::first();
+
+        if (!$program || !$year) {
+            return response()->json(['success' => false, 'message' => 'Program or Year not found'], 404);
+        }
+
+        $res = $this->directService->getLowAttainmentAlerts($program, $year);
+
+        return response()->json([
+            'success' => true,
+            'data' => $res,
+        ]);
+    }
+
+    /**
      * Get Indirect Attainment Breakdown (Exit, Alumni, Employer surveys)
      */
     public function getIndirectAttainment(Request $request): JsonResponse

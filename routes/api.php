@@ -93,6 +93,9 @@ Route::get(
         Route::get('/attainment/final', [AttainmentApiController::class, 'getFinalAttainment']);
         Route::get('/attainment/course/{courseId}', [AttainmentApiController::class, 'getCourseDirectAttainment']);
         Route::get('/attainment/course/{courseId}/performance', [AttainmentApiController::class, 'getCoursePerformance']);
+        Route::get('/attainment/co-trends', [AttainmentApiController::class, 'getCoTrends']);
+        Route::get('/attainment/cie-heatmap', [AttainmentApiController::class, 'getCieHeatmap']);
+        Route::get('/attainment/alerts', [AttainmentApiController::class, 'getLowAttainmentAlerts']);
         Route::get('/attainment/indirect', [AttainmentApiController::class, 'getIndirectAttainment']);
         Route::post('/attainment/record-marks', [AssessmentEntryApiController::class, 'recordMarks']);
         Route::post('/attainment/record-survey', [AssessmentEntryApiController::class, 'recordSurvey']);
