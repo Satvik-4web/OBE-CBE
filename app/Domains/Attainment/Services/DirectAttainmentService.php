@@ -125,11 +125,22 @@ class DirectAttainmentService
         $years = AcademicYear::orderBy('start_date', 'desc')->get();
         $availableYears = [];
         $coDataByYear = [];
+        
+        $coIds = $course->courseOutcomes->pluck('id')->toArray();
+        $assessmentChecks = \App\Domains\Attainment\Models\StudentAssessment::whereIn('course_outcome_id', $coIds)
+            ->select('academic_year_id', 'course_outcome_id')
+            ->distinct()
+            ->get();
+            
+        $courseHasDataByYear = [];
+        $coHasDataByYear = [];
+        foreach ($assessmentChecks as $check) {
+            $courseHasDataByYear[$check->academic_year_id] = true;
+            $coHasDataByYear[$check->academic_year_id][$check->course_outcome_id] = true;
+        }
 
         foreach ($years as $year) {
-            $hasData = StudentAssessment::whereIn('course_outcome_id', $course->courseOutcomes->pluck('id'))
-                ->where('academic_year_id', $year->id)
-                ->exists();
+            $hasData = isset($courseHasDataByYear[$year->id]);
 
             if ($hasData) {
                 $availableYears[] = [
@@ -158,9 +169,7 @@ class DirectAttainmentService
             $previousScore = null;
 
             foreach ($availableYears as $index => $yearInfo) {
-                $hasCoData = StudentAssessment::where('course_outcome_id', $co->id)
-                    ->where('academic_year_id', $yearInfo['id'])
-                    ->exists();
+                $hasCoData = isset($coHasDataByYear[$yearInfo['id']][$co->id]);
 
                 $score = null;
                 if ($hasCoData) {
@@ -268,39 +277,52 @@ class DirectAttainmentService
      */
     public function getLowAttainmentAlerts(\App\Domains\Academic\Models\Program $program, AcademicYear $year): array
     {
-        $courses = Course::where('program_id', $program->id)->get();
+        $cos = CourseOutcome::with(['course'])
+            ->whereHas('course', function ($q) use ($program) {
+                $q->where('program_id', $program->id);
+            })
+            ->get();
+            
+        $coIds = $cos->pluck('id')->toArray();
+        
+        $results = AttainmentResult::whereIn('course_outcome_id', $coIds)
+            ->where('academic_year_id', $year->id)
+            ->get()
+            ->keyBy('course_outcome_id');
+            
+        $hasDataMap = \App\Domains\Attainment\Models\StudentAssessment::whereIn('course_outcome_id', $coIds)
+            ->where('academic_year_id', $year->id)
+            ->select('course_outcome_id')
+            ->distinct()
+            ->pluck('course_outcome_id')
+            ->flip()
+            ->toArray();
+            
         $alerts = [];
-
-        foreach ($courses as $course) {
-            $cos = $course->courseOutcomes()->orderBy('co_code')->get();
-            foreach ($cos as $co) {
-                // IMPORTANT: Only evaluate if genuine assessment data exists
-                $hasData = StudentAssessment::where('course_outcome_id', $co->id)
-                    ->where('academic_year_id', $year->id)
-                    ->exists();
-
-                if (!$hasData) {
-                    continue; // Skip, do not treat missing data as low attainment
-                }
-
-                $coResult = $this->computeCoDirectAttainment($co, $year);
-
-                if (!$coResult['is_target_met']) {
+        
+        foreach ($cos as $co) {
+            if (!isset($hasDataMap[$co->id])) {
+                continue;
+            }
+            
+            if (isset($results[$co->id])) {
+                $result = $results[$co->id];
+                if ($result->direct_attainment < $co->target_level) {
                     $alerts[] = [
-                        'course_id' => $course->id,
-                        'course_code' => $course->course_code,
-                        'course_name' => $course->course_name,
+                        'course_id' => $co->course->id,
+                        'course_code' => $co->course->course_code,
+                        'course_name' => $co->course->course_name,
                         'co_id' => $co->id,
                         'co_code' => $co->co_code,
                         'co_name' => $co->description,
                         'academic_year' => $year->name,
-                        'attainment_value' => $coResult['direct_attainment'],
-                        'threshold' => $coResult['target_level']
+                        'attainment_value' => $result->direct_attainment,
+                        'threshold' => $co->target_level
                     ];
                 }
             }
         }
-
+        
         return $alerts;
     }
 }

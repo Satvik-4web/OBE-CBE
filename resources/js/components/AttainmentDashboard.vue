@@ -215,7 +215,7 @@
                 {{ student.student_identifier }}
               </td>
               <td v-for="q in heatmapData.questions" :key="q.id" class="p-2 text-center border-l border-slate-800/50">
-                <div v-if="student.marks[q.id] !== undefined" 
+                <div v-if="student.marks[q.id] !== undefined && student.marks[q.id] !== null" 
                      class="w-full py-1.5 rounded text-[11px] font-mono font-bold"
                      :class="getHeatmapColor(student.marks[q.id], q.max_marks)">
                   {{ student.marks[q.id] }}
@@ -622,7 +622,12 @@ export default {
     }
   },
   watch: {
-    activeTab(newTab) {
+    activeTab(newTab, oldTab) {
+      if (oldTab === 'co_trend' && this.chartInstance) {
+        this.chartInstance.destroy();
+        this.chartInstance = null;
+      }
+
       if (newTab === 'co_trend' && !this.trendData && this.trendCourseId) {
         this.fetchCoTrends();
       } else if (newTab === 'co_trend' && this.trendData) {
