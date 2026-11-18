@@ -18,7 +18,7 @@
         </h1>
 
         <p class="mt-2 max-w-2xl text-sm text-slate-400">
-          Upload student-wise assessment marks using a CSV file and automatically
+          Upload student-wise assessment marks using an Excel (.xlsx, .xls) or CSV file and automatically
           map them to the configured assessment questions.
         </p>
       </div>
@@ -30,6 +30,30 @@
                hover:text-white"
       >
         Reset
+      </button>
+    </div>
+
+    <!-- Banner linking to CLO & Ongoing Performance Workflow -->
+    <div class="rounded-2xl border border-indigo-500/30 bg-gradient-to-r from-indigo-950/40 via-purple-950/20 to-slate-900/40 p-4 flex flex-col md:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-indigo-500/20 text-indigo-400 border border-indigo-500/30 flex items-center justify-center font-bold text-lg">
+          ⚡
+        </div>
+        <div>
+          <div class="text-sm font-bold text-white flex items-center gap-2">
+            Looking for Ongoing Performance & Full CLO Engine?
+            <span class="text-[10px] px-2 py-0.5 rounded-full bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 font-mono">TIET / NBA</span>
+          </div>
+          <p class="text-xs text-slate-400 mt-0.5">
+            Upload multi-component Ongoing Performance spreadsheets (.xlsx), map question breakup to CLO1..CLO6, and generate the CLO Sheet & Master Articulation Matrix.
+          </p>
+        </div>
+      </div>
+      <button
+        @click="$emit('navigate', 'clo_workflow')"
+        class="whitespace-nowrap rounded-xl bg-indigo-600 hover:bg-indigo-500 px-4 py-2 text-xs font-bold text-white shadow-lg transition"
+      >
+        Open CLO Workflow →
       </button>
     </div>
 
@@ -174,17 +198,17 @@
     </div>
 
 
-    <!-- CSV Upload -->
+    <!-- CSV & Excel Upload -->
     <div
       class="rounded-2xl border border-slate-800 bg-slate-900/60 shadow-xl"
     >
       <div class="border-b border-slate-800 px-6 py-5">
         <h2 class="text-lg font-semibold text-white">
-          Upload Student Marks
+          Upload Student Marks (Excel or CSV)
         </h2>
 
         <p class="mt-1 text-xs text-slate-500">
-          CSV format: student_id,Q1,Q2,Q3,Q4,Q5...
+          Format: student_id (or Roll No), Q1, Q2, Q3, Q4, Q5...
         </p>
       </div>
 
@@ -201,7 +225,7 @@
           <input
             ref="fileInput"
             type="file"
-            accept=".csv,text/csv"
+            accept=".csv,text/csv,.xlsx,.xls,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet,application/vnd.ms-excel"
             class="hidden"
             @change="handleFile"
           />
@@ -216,11 +240,11 @@
           </div>
 
           <div class="mt-4 text-sm font-semibold text-white">
-            {{ file ? file.name : 'Choose CSV file' }}
+            {{ file ? file.name : 'Choose Excel (.xlsx) or CSV file' }}
           </div>
 
           <div class="mt-2 text-xs text-slate-500">
-            Click to browse • CSV files only
+            Click to browse • Supports .xlsx, .xls, and .csv spreadsheets
           </div>
 
           <div
@@ -234,12 +258,12 @@
         </label>
 
 
-        <!-- CSV Format -->
+        <!-- Format Guide -->
         <div
           class="mt-5 rounded-xl border border-slate-800 bg-slate-950/70 p-4"
         >
           <div class="text-xs font-semibold uppercase tracking-wider text-slate-400">
-            Required CSV format
+            Supported formats: Excel (.xlsx, .xls) and CSV (.csv)
           </div>
 
           <pre
@@ -489,8 +513,10 @@ export default {
         return;
       }
 
-      if (!selectedFile.name.toLowerCase().endsWith('.csv')) {
-        this.errorMessage = 'Please select a valid CSV file.';
+      const validExts = ['.csv', '.xlsx', '.xls'];
+      const fileName = selectedFile.name.toLowerCase();
+      if (!validExts.some(ext => fileName.endsWith(ext))) {
+        this.errorMessage = 'Please select a valid Excel (.xlsx, .xls) or CSV file.';
         this.file = null;
         return;
       }
@@ -501,7 +527,7 @@ export default {
 
     async uploadMarks() {
       if (!this.file) {
-        this.errorMessage = 'Please select a CSV file first.';
+        this.errorMessage = 'Please select an Excel or CSV file first.';
         return;
       }
 
@@ -549,7 +575,7 @@ export default {
 
         this.errorMessage =
           error.response?.data?.message ||
-          'Marks upload failed. Please check your CSV format.';
+          'Marks upload failed. Please check your file format.';
 
       } finally {
         this.uploading = false;

@@ -146,6 +146,20 @@
     />
     <span>Year-on-Year Performance</span>
 </button>
+<button
+    @click="activeView = 'clo_workflow'"
+    class="w-full px-3 py-2 rounded-lg text-xs font-medium flex items-center gap-2.5 transition-all text-left"
+    :class="activeView === 'clo_workflow'
+        ? 'bg-indigo-600 text-white shadow-lg font-semibold'
+        : 'text-slate-300 hover:bg-slate-800 hover:text-white'"
+>
+    <AppIcon
+        name="target"
+        size="15"
+        :custom-class="activeView === 'clo_workflow' ? 'text-white' : 'text-slate-400'"
+    />
+    <span>CLO & Articulation Workflow</span>
+</button>
               <button @click="activeView = 'matrix'"
                       class="w-full px-3 py-2 rounded-lg text-xs font-medium flex items-center gap-2.5 transition text-left"
                       :class="activeView === 'matrix' ? 'bg-indigo-600 text-white shadow-sm font-semibold' : 'text-slate-300 hover:text-white hover:bg-slate-800/60'">
@@ -333,6 +347,15 @@
     <StudentMarksUploadView
         :program-id="sarData.program.id"
         @updated="refreshData"
+        @navigate="activeView = $event"
+    />
+</section>
+
+<!-- 7D. CLO & Articulation Workflow View -->
+<section v-if="activeView === 'clo_workflow'">
+    <CloWorkflowView
+        :program-id="sarData.program?.id"
+        @updated="refreshData"
     />
 </section>
            
@@ -400,6 +423,7 @@ import SarWorkflowPanel from './SarWorkflowPanel.vue';
 import PrintableSarReport from './PrintableSarReport.vue';
 import StudentMarksUploadView from './StudentMarksUploadView.vue';
 import CoursePerformanceView from './CoursePerformanceView.vue';
+import CloWorkflowView from './CloWorkflowView.vue';
 export default {
   name: 'MainApp',
   components: {
@@ -423,6 +447,7 @@ StudentMarksUploadView,
     SarWorkflowPanel,
     PrintableSarReport,
     CoursePerformanceView,
+    CloWorkflowView,
   },
   data() {
     return {
@@ -461,6 +486,7 @@ StudentMarksUploadView,
         workflow: 'SAR Approval State Machine & Audit Trail',
         document: 'Official NBA Tier-II SAR Report Document',
         performance: 'Year-on-Year Course Performance',
+        clo_workflow: 'CLO & Articulation Master Workflow',
       };
       return titles[this.activeView] || this.activeView;
     },

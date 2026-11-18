@@ -71,6 +71,9 @@ Route::get(
     Route::get('/survey-options', [AssessmentEntryApiController::class, 'surveyOptions']);
     Route::put('/surveys/{id}', [AssessmentEntryApiController::class, 'updateSurvey']);
     Route::delete('/surveys/{id}', [AssessmentEntryApiController::class, 'destroySurvey']);
+    Route::get('/co-trends', [AttainmentApiController::class, 'getCoTrends']);
+    Route::get('/cie-heatmap', [AttainmentApiController::class, 'getCieHeatmap']);
+    Route::get('/alerts', [AttainmentApiController::class, 'getLowAttainmentAlerts']);
 });
 
     // 6. NBA SAR Engines & Matrices
@@ -88,6 +91,11 @@ Route::get(
         Route::get('/course-matrix/{courseId}', [ArticulationMatrixApiController::class, 'getCourseMatrix']);
         Route::get('/program-matrix', [ArticulationMatrixApiController::class, 'getProgramMatrix']);
         Route::post('/update-mapping', [ArticulationMatrixApiController::class, 'updateMapping']);
+
+        // CLO Evaluation & Ongoing Performance Workflow (TIET/NBA Flow)
+        Route::post('/clo-workflow/parse-performance', [\App\Http\Controllers\Api\V1\CloWorkflowApiController::class, 'parsePerformance']);
+        Route::post('/clo-workflow/calculate', [\App\Http\Controllers\Api\V1\CloWorkflowApiController::class, 'calculate']);
+        Route::get('/clo-workflow/export-excel', [\App\Http\Controllers\Api\V1\CloWorkflowApiController::class, 'exportExcel']);
 
         // Criterion 3: Attainment (Direct, Indirect, Final PO Attainment)
         Route::get('/attainment/final', [AttainmentApiController::class, 'getFinalAttainment']);
