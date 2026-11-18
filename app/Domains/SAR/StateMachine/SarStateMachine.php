@@ -47,7 +47,7 @@ class SarStateMachine
     public function transition(
         SarReport $report, 
         string $targetState, 
-        string $userName = 'HOD Computer Science', 
+        string $userName = 'HOD Electronics and Computer Engineering', 
         string $userRole = 'HOD', 
         ?string $remarks = null
     ): SarReport {

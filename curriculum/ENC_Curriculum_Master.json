@@ -1,0 +1,2104 @@
+{
+  "program": "Bachelor of Engineering (Electronics and Computer Engineering)",
+  "department": "Department of Electronics and Computer Engineering",
+  "institution": "Thapar Institute of Engineering & Technology",
+  "total_credits": 166.0,
+  "scheme": "2025-2029",
+  "semesters": {
+    "1": {
+      "title": "Semester I",
+      "total_credits": 19.0,
+      "contact_hours": 25,
+      "courses": [
+        {
+          "code": "UPH013",
+          "name": "Physics",
+          "category": "BSC",
+          "ltp": "3-1-2",
+          "credits": 4.5,
+          "contact_hours": 6,
+          "objective": "To introduce the student to the basic physical laws of oscillators, acoustics of buildings, ultrasonics, electromagnetic waves, wave optics, lasers, and quantum mechanics and demonstrate their applications in technology. To introduce the student to measurement principles and their application to investigate physical phenomena.",
+          "syllabus": [
+            "Oscillations and Waves: Oscillatory motion and damping, Applications - Electromagnetic damping - eddy current; Acoustics: Reverberation time, absorption coefficient, Sabine's and Eyring's formulae, Applications - Designing of hall for speech, concert, and opera; Ultrasonics: Production and Detection of Ultrasonic waves, Applications - green energy, sound signaling, dispersion of fog, remote sensing, Car's airbag sensor.",
+            "Electromagnetic Waves: Scalar and vector fields; Gradient, divergence, and curl; Stokes' and Green's theorems; Concept of Displacement current; Maxwell's equations; Electromagnetic wave equations in free space and conducting media, Application - skin depth.",
+            "Optics: Interference: Parallel and wedge-shaped thin films, Newton rings, Applications as Non reflecting coatings, Measurement of wavelength and refractive index. Diffraction: Single and Double slit diffraction, and Diffraction grating, Applications - Dispersive and Resolving Powers. Polarization: Production, detection, Applications - Anti-glare automobile headlights, Adjustable tint windows. Lasers: Basic concepts, Laser properties, Ruby, HeNe, and Semiconductor lasers, Applications - Optical communication and Optical alignment.",
+            "Quantum Mechanics: Wave function, Steady State Schrodinger wave equation, Expectation value, Infinite potential well, Tunneling effect, Application - Quantum computing.",
+            "Laboratory Work: Damping effect on oscillatory motion; Velocity of ultrasonic waves in liquids; Wavelength of sodium light using Newton's rings; Dispersive power of sodium-D lines; Specific rotation of cane sugar solution; Malus' law in polarization; Beam divergence and beam intensity of a laser; Displacement and conducting currents through a dielectric; Planck's constant."
+          ],
+          "clos": [
+            "CLO1: Understand damped and simple harmonic motion, the role of reverberation in designing a hall and generation and detection of ultrasonic waves.",
+            "CLO2: Use Maxwell's equations to describe propagation of EM waves in a medium.",
+            "CLO3: Demonstrate interference, diffraction and polarization of light.",
+            "CLO4: Explain the working principle of Lasers.",
+            "CLO5: Use the concept of wave function to find probability of a particle confined in a box.",
+            "CLO6: Perform an experiment, collect data, tabulate and report them and interpret the results with error analysis."
+          ],
+          "text_books": [
+            "Beiser, A., Concept of Modern Physics, Tata McGraw Hill (2007) 6th ed.",
+            "Griffiths, D.J., Introduction to Electrodynamics, Prentice Hall of India (1999) 3rd ed.",
+            "Jenkins, F.A. and White, H.E., Fundamentals of Optics, McGraw Hill (2001) 4th ed."
+          ]
+        },
+        {
+          "code": "UES101",
+          "name": "Engineering Drawing",
+          "category": "ESC",
+          "ltp": "2-4-0",
+          "credits": 4.0,
+          "contact_hours": 6,
+          "objective": "This module is dedicated to graphics and includes two sections: 2D drafting and 3D modelling of solid objects. This course is aimed at making the student understand the concepts of projection systems, learn how to create projections of solid objects using first and third angle orthographic projection as well as isometric and auxiliary projection, concept of sectioning, to interpret the meaning and intent of toleranced dimensions and to create/edit drawings using drafting software.",
+          "syllabus": [
+            "Engineering Drawing Concepts: Introduction to Engineering Drawing; Projection systems: First angle and third angle projection system; Orthographic Projection: Points, Lines, Solid objects; Isometric Projections; Auxiliary Projections; Development of surfaces; Section of solids; Limits, fits and tolerances.",
+            "2D Drafting: Management of screen menus commands; Creating basic drawing entities; Coordinate systems: Cartesian, polar and relative coordinates; Drawing limits, units of measurement and scale; Layering: organizing and maintaining the integrity of drawings; Design of prototype drawings as templates; Editing/modifying drawing entities: selection of objects, object snap modes, editing commands; Dimensioning: use of annotations, dimension types, properties and placement, adding text to drawing.",
+            "3D Modelling: Management of screen menus commands; Introduction to basic 3D modelling commands such as extrude, revolve, sweep etc.; Creation of 2D drawings from a 3D model."
+          ],
+          "clos": [
+            "CLO1: Creatively comprehend the geometrical details of common engineering objects.",
+            "CLO2: Draw dimensioned orthographic and isometric projections of simple engineering objects.",
+            "CLO3: Interpret the meaning and intent of limits, fits and tolerances in the drawing.",
+            "CLO4: Create/edit the engineering drawings for simple engineering objects using 2D drafting software.",
+            "CLO5: Create/edit 3D models of engineering components using 3D modelling software."
+          ],
+          "text_books": [
+            "Jolhe, D.A., Engineering Drawing, Tata McGraw Hill, 2008.",
+            "Davies, B. L., Yarwood, A., Engineering Drawing and Computer Graphics, Van Nostrand Reinhold (UK), 1986."
+          ]
+        },
+        {
+          "code": "UHU003",
+          "name": "Professional Communication",
+          "category": "HSS",
+          "ltp": "2-0-2",
+          "credits": 3.0,
+          "contact_hours": 4,
+          "objective": "The course is designed to develop the interpersonal, written, and oral as well as the non-verbal communication skills of the students. The course begins by building up on the theoretical concepts and then practicing on the applicability of the various elements.",
+          "syllabus": [
+            "Fundamentals of Communication: Meaning, Types and Characteristics of communication, Applicability of Transactional Analysis and Johari Window for enhancing interpersonal communication skills. Seven Cs of Effective Communication, Barriers to Effective Communication.",
+            "Effective Oral Communication: Understanding Principles of Oral communication, Formal and Informal Oral Communication, Oral Communication and Behavioral Patterns, Advantages and Disadvantages of Oral Communication.",
+            "Effective Listening & Non-verbal Communication: Listening vs Hearing, Active Listening techniques, Barriers to Listening. Meaning and Importance of Non-Verbal Communication, Different Types of Non-verbal Communication, Interpretation of Non-verbal Cues.",
+            "Effective Written & Business Communication: Characteristics of Good Writing, Choice of Words, Sentence Construction, Paragraph development, Forms of writing. Technical Report Writing, Designing Resumes and Cover Letters for effective job application, E-mail writing and e-mail etiquette.",
+            "Organizational Communication: Directional communication: Downward, Upward and Horizontal Communication, Grapevine."
+          ],
+          "clos": [
+            "CLO1: Apply communication concepts for effective interpersonal communication.",
+            "CLO2: Speak assertively and effectively.",
+            "CLO3: Interpret non-verbal cues in professional communication.",
+            "CLO4: Write objectively, purposefully and effectively.",
+            "CLO5: Design effective resumes and reports."
+          ],
+          "text_books": [
+            "Mukherjee H.S., Business Communication: Connecting at Work. Oxford University Press (2013).",
+            "Lesikar R.V. and Flately M.E., Basic Business Communication Skills for empowering the internet generation (2006)."
+          ]
+        },
+        {
+          "code": "UES102",
+          "name": "Manufacturing Processes",
+          "category": "ESC",
+          "ltp": "2-0-2",
+          "credits": 3.0,
+          "contact_hours": 4,
+          "objective": "This course introduces the basic concepts of manufacturing via machining, forming, casting and joining, enabling the students to develop a basic knowledge of the mechanics, operation and limitations of basic machining tools along with metrology and measurement of parts. The course also introduces the concept of smart manufacturing.",
+          "syllabus": [
+            "Machining Processes: Principles of metal cutting, Cutting tools, Cutting tool materials and applications, Geometry of single point cutting tool, Introduction to CNC machines, G and M code programming for simple turning and milling operations, introduction of canned cycles.",
+            "Metal Casting & Forming: Introduction & Principles of sand casting, Requisites of a sound casting, Permanent mold casting processes, casting defects. Hot & cold metal working, Forging, Rolling, Sheet Metal operations.",
+            "Joining Processes: Method of joining, type of electric arc welding processes, Methods of shielding, Power source characteristics, Resistance welding, Soldering, Brazing.",
+            "Smart Manufacturing: IoT and ML in manufacturing, Introduction to Additive Manufacturing, Robotics and Automation in manufacturing."
+          ],
+          "clos": [
+            "CLO1: Identify & analyse various machining processes/operations for manufacturing of industrial components.",
+            "CLO2: Apply the basic principle of bulk and sheet metal forming operations.",
+            "CLO3: Apply the knowledge of metal casting for different requirements.",
+            "CLO4: Identify and analyse the requirements for achieving a sound welded joint and apply the concept of smart manufacturing."
+          ],
+          "text_books": [
+            "Degarmo, E. P., Kohser, R. A. and Black, J. T., Materials and Processes in Manufacturing, Prentice Hall of India (2008) 8th ed.",
+            "Kalpakjian, S. and Schmid, S. R., Manufacturing Processes for Engineering Materials, Dorling Kingsley (2006) 4th ed."
+          ]
+        },
+        {
+          "code": "UMA022",
+          "name": "Calculus for Engineers",
+          "category": "BSC",
+          "ltp": "3-1-0",
+          "credits": 3.5,
+          "contact_hours": 4,
+          "objective": "To provide students with skills and knowledge in sequence and series, advanced calculus, calculus of several variables and complex analysis which would enable them to devise solutions for given situations they may encounter in their engineering profession.",
+          "syllabus": [
+            "Unit-I: Functions of several variables, Limits and continuity, Partial derivatives, Chain rule, Change of variables, Partial differentiation of implicit functions, Directional derivatives and its properties, Maxima and minima by using second order derivatives.",
+            "Unit-II: Double integral (Cartesian), Change of order of integration in double integral, Polar coordinates, Graphing of polar curves, Double integrals in polar form, Change of variables (Cartesian to polar), Applications of double integrals to find areas, volumes, average values, and centre of mass. Evaluation of triple integral (Cartesian).",
+            "Unit-III: Introduction to sequences and infinite series, Tests for convergence/divergence, Cauchy integral test, Comparison tests, Ratio test, Root test, Alternating series, Absolute convergence and conditional convergence. Power series, Taylor series, Convergence of Taylor series, Error estimates.",
+            "Unit-IV: Introduction to complex numbers, Geometrical interpretation, Functions of complex variables, Elementary calculus on the complex plane (limits, continuity, differentiability), Cauchy Riemann equations, Analytic functions, Harmonic functions."
+          ],
+          "clos": [
+            "CLO1: Examine functions of several variables, define and compute partial derivatives, directional derivatives, and their use in finding maxima and minima in engineering problems.",
+            "CLO2: Evaluate multiple integrals in Cartesian and Polar coordinates, and their applications to find areas and volumes.",
+            "CLO3: Determine the convergence/divergence of infinite series, approximation of functions using power and series expansion and error estimation in engineering problems.",
+            "CLO4: Represent complex numbers in Cartesian and Polar forms and test the analyticity of complex functions by using Cauchy Riemann equations."
+          ],
+          "text_books": [
+            "Thomas, G.B. and Finney, R.L., Calculus and Analytic Geometry, Pearson Education (2007), 9th ed.",
+            "Kasana, H.S., Complex Variables: Theory and Applications, Prentice Hall India, 2005 (2nd ed.)."
+          ]
+        },
+        {
+          "code": "UES104",
+          "name": "Boot Camp",
+          "category": "BSC",
+          "ltp": "1-0-0",
+          "credits": 1.0,
+          "contact_hours": 1,
+          "objective": "To introduce first-year engineering students to collaborative engineering practices, hands-on maker skills, orientation with electronic and computing labs, and professional mindset.",
+          "syllabus": [
+            "Hands-on workshop on engineering tools, prototyping foundations, version control basics, introduction to departmental laboratories and safety protocols.",
+            "Design thinking sprints, problem formulation, teamwork dynamics, and exposure to emerging electronics and computing technologies."
+          ],
+          "clos": [
+            "CLO1: Acquire orientation on engineering fundamentals and interdisciplinary tools.",
+            "CLO2: Understand institutional ethics, collaborative workflows, and campus academic resources."
+          ],
+          "text_books": [
+            "Institution Induction and Maker Space Handbook, TIET (2025)."
+          ]
+        }
+      ]
+    },
+    "2": {
+      "title": "Semester II",
+      "total_credits": 18.0,
+      "contact_hours": 22,
+      "courses": [
+        {
+          "code": "UCB009",
+          "name": "Chemistry",
+          "category": "BSC",
+          "ltp": "3-0-2",
+          "credits": 4.0,
+          "contact_hours": 5,
+          "objective": "The course aims at elucidating principles of applied chemistry in industrial systems, water treatment, engineering materials, computational and analytical techniques.",
+          "syllabus": [
+            "Atomic and Molecular spectroscopy: Introduction to spectroscopy, principles of atomic absorption, flame emission spectrophotometry and ICP-AES, Quantification by calibration method, Jablonski diagram, fluorescence and phosphorescence, Beer-Lambert's Law, UV-Vis and IR spectroscopy.",
+            "Electrochemistry: Background of electrochemistry, Ionic mobility, Conductometric titrations, Modern Batteries: Pb-acid and Li ion battery, Corrosion and its protection.",
+            "Water Treatment and Analysis: Physiochemical parameters of water quality, Softening of water: carbonate, phosphate, calgon and colloidal conditioning, Zeolite process, Ion exchange process, Desalination: Reverse osmosis & Electrodialysis.",
+            "Fuels & Polymers: Classification of fuels, Calorific value, Cetane and Octane number, alternative fuels: biodiesel, Fuel cells: H2 production and storage. Classification of polymers, molecular weight calculations, conducting and biodegradable polymers.",
+            "Computers in Chemistry: Introduction to SMILES (Simplified Molecular Input Line-Entry System): Methodology, encoding rules, notation-chemical structure interconversions."
+          ],
+          "clos": [
+            "CLO1: Recognize principles and applications of atomic and molecular spectroscopy.",
+            "CLO2: Explain the concepts of conductometric titrations, modern batteries and corrosion.",
+            "CLO3: Apply and execute water quality parameter and treatment methods.",
+            "CLO4: Discuss the concept of alternative fuels, application of polymers and SMILES.",
+            "CLO5: Execute laboratory techniques like pH metry, potentiometry, spectrophotometry, conductometry and volumetry."
+          ],
+          "text_books": [
+            "Vairam, S. and Ramesh, S., Engineering Chemistry, Wiley India 1st ed, 2014.",
+            "Maheswaramma, K. S. and Chugh, M., Engineering Chemistry, Pearson, 2016."
+          ]
+        },
+        {
+          "code": "UES103",
+          "name": "Programming for Problem Solving",
+          "category": "ESC",
+          "ltp": "3-0-2",
+          "credits": 4.0,
+          "contact_hours": 5,
+          "objective": "This course is designed to solve and explore the problems using the art of computer programming with the help of C Language. Students will be able to apply these problem solving concepts in real life applications.",
+          "syllabus": [
+            "Introduction to Computer Fundamentals: Computer Memory Hierarchy, Types of Software, Binary number system, Algorithm, Flowchart, Simple algorithms for logical and arithmetic problems.",
+            "Basics of C Programming: Structure and Life cycle of a C Program, Data types, Identifiers, Variables, Keywords, Constants, I/O statements, Operators, Type conversion and casting.",
+            "Decision Making and Iterative Statements: if, if-else, Nested if-else, switch, Ternary Operator, Loops (while, do-while, for), Nesting of Loops, break, continue and goto.",
+            "Functions & Recursion: Function prototype, Definition and Call, Scope of variables, Storage classes, Recursion, Tower of Hanoi.",
+            "Arrays, Strings & Pointers: 1D and 2D arrays, Array operations, Strings, String functions. Pointers, Pointer arithmetic, Call by value and reference, Dynamic memory allocation (malloc, calloc, realloc, free).",
+            "Structures, Union & File Handling: Structure declaration, accessing members, Array of structures, Structure pointers, Comparison with Union. File streams, file opening/closing, reading, writing, appending, command line arguments."
+          ],
+          "clos": [
+            "CLO1: Comprehend and analyze the concepts of number system, memory, compilation and debugging of the programs in C language.",
+            "CLO2: Analyze the control & iterative statements to solve problems with C language source codes.",
+            "CLO3: Design and create programs for problem solving involving arrays, strings and pointers.",
+            "CLO4: Evaluate and analyze programming concepts based on user-defined data types and file handling using C language."
+          ],
+          "text_books": [
+            "Kernighan, B. W. and Ritchie, D. M., C Programming Language, 2nd ed, 2012.",
+            "Balagurusamy, G., Programming in ANSI C, 8th ed., 2019."
+          ]
+        },
+        {
+          "code": "UES013",
+          "name": "Electrical & Electronics Engineering",
+          "category": "ESC",
+          "ltp": "3-1-2",
+          "credits": 4.5,
+          "contact_hours": 6,
+          "objective": "To introduce the basic concepts of electrical and electronics engineering.",
+          "syllabus": [
+            "DC Circuits: Introduction to circuit elements; independent and dependent sources; Kirchhoff's laws; mesh and node analysis; network theorems: Superposition, Thevenin's, Norton's, Maximum power transfer theorem; star-delta transformation; transient response of R-L and R-C circuits.",
+            "AC Circuits & Magnetic Circuits: Phasor representation of circuit elements; series and parallel AC circuits; resonance in RLC circuits; balanced three phase circuits; three phase power measurement using two-wattmeter method; magnetic circuits, single-phase transformer.",
+            "Digital Logic Design: Number systems, Boolean Algebra, Karnaugh Maps, Logic gates, Adder, Decoder, MUX, Introduction to Flip-Flops.",
+            "Electronic Devices & Op-Amp Circuits: p-n junction diode, BJT operation, CB and CE configuration, Transistor as a switch. Ideal operational amplifier, inverting and non-inverting amplifiers, Op-amp as summing amplifier.",
+            "Standards Familiarization: IEEE 1241-2023 (Analog-to-Digital), IEEE 1658-2011, IEEE 802 Family."
+          ],
+          "clos": [
+            "CLO1: Apply various networks laws and theorems to solve dc circuits.",
+            "CLO2: Compute different ac quantities with phasor representation.",
+            "CLO3: Comprehend the operation in magnetic circuits, single phase transformer.",
+            "CLO4: Recognize and apply number systems and simplification of Boolean expressions using Boolean algebra and K-Map.",
+            "CLO5: Solve and implement logical functions using logic gates, decoders, and multiplexers.",
+            "CLO6: Discuss and explain the working of Flip-Flops, diode, transistor and operational amplifier, their configurations and applications."
+          ],
+          "text_books": [
+            "Hughes, E., Smith, I.M., Hiley, J. and Brown, K., Electrical and Electronic Technology, Prentice Hall (2008) 10th ed.",
+            "Nagrath, I.J. and Kothari, D.P., Basic Electrical Engineering, Tata McGraw Hill (2002).",
+            "Boylestad, R.L. and Nashelsky, L., Electronic Devices & Circuit Theory, Pearson (2009).",
+            "Mano, M. M. and Ciletti, M.D., Digital Design, Pearson, Prentice Hall (2013)."
+          ]
+        },
+        {
+          "code": "UEN008",
+          "name": "Energy and Environment",
+          "category": "BSC",
+          "ltp": "2-0-0",
+          "credits": 2.0,
+          "contact_hours": 2,
+          "objective": "The exposure to this course would facilitate the students in understanding the terms, definitions and scope of environmental and energy issues pertaining to current global scenario; understanding the need of sustainability in addressing the current environmental & energy challenges.",
+          "syllabus": [
+            "Introduction: Concept of sustainability and sustainable use of natural resources, Climate Change & its related aspects.",
+            "Air Pollution: Origin, Sources and effects of air pollution; meteorological parameters; wind roses; Atmospheric stability; Air Pollution Control Devices.",
+            "Water Pollution: Sources of water pollution, water pollutants, Physicochemical characteristics, Components of wastewater treatment systems.",
+            "Solid Waste Management: Sources, characteristics of municipal solid waste, Incineration, composting, landfilling.",
+            "Energy Resources: Classification of Energy Resources; Non-conventional energy: Biomass energy, Solar energy-active and passive absorption systems; Collectors; Thermal and photo conversion."
+          ],
+          "clos": [
+            "CLO1: Comprehend the interdisciplinary context of environmental issues with reference to sustainability.",
+            "CLO2: Assess the impact of anthropogenic activities on the various elements of environment and apply suitable techniques to mitigate their impact.",
+            "CLO3: Demonstrate the application of technology in real time assessment and control of pollutants.",
+            "CLO4: Correlate environmental concerns with conventional energy sources and assess the uses and limitations of non-conventional energy technologies."
+          ],
+          "text_books": [
+            "Moaveni, S., Energy, Environment and Sustainability, Cengage (2018).",
+            "Rajagopalan, R., Environmental Studies, Oxford University Press (2018)."
+          ]
+        },
+        {
+          "code": "UMA023",
+          "name": "Differential Equations and Linear Algebra",
+          "category": "BSC",
+          "ltp": "3-1-0",
+          "credits": 3.5,
+          "contact_hours": 4,
+          "objective": "To introduce students the theory and concepts of differential equations, linear algebra, Laplace transformations and Fourier series which will equip them with adequate knowledge of mathematics to formulate and solve problems analytically.",
+          "syllabus": [
+            "Unit I: Review of first order differential equations, Second and higher order differential equations, Cauchy - Euler equation, Method of undetermined coefficients, variation of parameters, operator method, Applications.",
+            "Unit II: Laplace transforms and its inverse, Properties of Laplace transforms, Unit step function, Impulse function, Initial and boundary value problems.",
+            "Unit III: Fourier series on arbitrary intervals, Even and odd functions, Half range expansions, Partial differential equations, Separation of variables, Applications to heat/wave equations.",
+            "Unit IV: Row reduced echelon form, Solution of system of linear equations, Matrix inversion, Linear spaces, Subspaces, Basis and dimension, Linear transformation and matrix representation, Eigen-values, Eigen-vectors and Diagonalisation."
+          ],
+          "clos": [
+            "CLO1: Solve differential equations of first and 2nd order and basic application problems described by these equations.",
+            "CLO2: Determine Laplace transforms and inverse Laplace transforms for various functions and solve initial and boundary value problems.",
+            "CLO3: Determine Fourier series expansions of periodic functions and solve heat and wave equations.",
+            "CLO4: Solve systems of linear equations using elementary row operations, compute bases/orthonormal bases, express linear transformation in matrix terms and find eigenvalues and eigenvectors."
+          ],
+          "text_books": [
+            "Simmons, G.F., Differential Equations (With Applications and Historical Notes), Tata McGraw Hill (2009).",
+            "Krishnamurthy, V.K., Mainra, V.P. and Arora, J.L., An introduction to Linear Algebra, Affiliated East West Press (1976)."
+          ]
+        }
+      ]
+    },
+    "3": {
+      "title": "Semester III",
+      "total_credits": 25.0,
+      "contact_hours": 31,
+      "courses": [
+        {
+          "code": "UNC401",
+          "name": "Data Structures",
+          "category": "PCC",
+          "ltp": "3-0-2",
+          "credits": 4.0,
+          "contact_hours": 5,
+          "objective": "To become familiar with different types of data structures and their applications and learn different types of algorithmic techniques and strategies.",
+          "syllabus": [
+            "Introduction & Complexity: Abstract data types, Data Representation, Big-Oh notation, time and space complexity, Recurrence relations, Analysis of iterative and recursive algorithms.",
+            "Linear Data Structures: Arrays, records, linked lists, stacks, queues, priority queues, Hash tables, collision resolution strategies.",
+            "Searching & Sorting: Linear Search, Binary Search, Bubble Sort, Selection Sort, Insertion Sort, Shell Sort, Quick Sort, Heap Sort, Merge Sort, Counting Sort and Radix Sort.",
+            "Trees & Applications: Binary trees, Binary search trees, AVL trees, Red-black trees, B-trees, Heaps, Huffman coding.",
+            "Graphs: Directed and undirected graphs, BFS, DFS, Shortest-path (Dijkstra, Floyd), Minimum spanning tree (Prim, Kruskal).",
+            "Standards Familiarization: IEEE 29148-2018, POSIX IEEE 1003.1."
+          ],
+          "clos": [
+            "CLO1: Implement basic data structures and solve problems using fundamental algorithms.",
+            "CLO2: Implement various searching and sorting techniques.",
+            "CLO3: Analyze the complexity of algorithms to provide justification for selection and implementation.",
+            "CLO4: Apply appropriate data structure and algorithmic technique to solve real-world problems."
+          ],
+          "text_books": [
+            "Cormen, Leiserson & Rivest, Introduction to Algorithms, MIT Press, 3rd Ed., (2009).",
+            "Narasimha Karumanchi, Data Structures and Algorithms Made Easy, 2nd Ed., (2014)."
+          ]
+        },
+        {
+          "code": "UNC305",
+          "name": "Discrete Mathematics",
+          "category": "BSC",
+          "ltp": "3-1-0",
+          "credits": 3.5,
+          "contact_hours": 4,
+          "objective": "To understand mathematical reasoning in order to read, comprehend and construct Mathematical arguments as well as to solve problems occurred in computer systems and networks.",
+          "syllabus": [
+            "Basic Logic: Propositional logic, Truth tables, DNF, Inference rules, Universal and existential quantifiers.",
+            "Sets, Relations and Functions: Set builder notation, Venn diagrams, Cartesian product, Power sets, Equivalence relations, Poset, Lattice, Hasse's Diagram, Injective and surjective functions, Composition.",
+            "Proof Techniques: Direct proofs, Disproving by counterexample, Proof by contrapositive, Proof by contradiction, Mathematical Induction.",
+            "Basics of Counting: Counting arguments, Sum and product rules, Pigeonhole principle, Permutations and combinations, Binomial theorem, Recurrence relations.",
+            "Graph Theory: Undirected/directed graphs, Weighted graphs, Spanning trees, Graph isomorphism, Eulerian and Hamiltonian cycles, Planarity."
+          ],
+          "clos": [
+            "CLO1: Apply Knowledge of mathematics in truth tables and the rules of propositional & predicate calculus.",
+            "CLO2: Apply the logical and analytical structure of proofs and work symbolically with connectives and quantifiers to produce logically valid arguments.",
+            "CLO3: Evaluate elementary mathematical arguments and identify fallacious reasoning.",
+            "CLO4: Analyze real-world problems using graph theory."
+          ],
+          "text_books": [
+            "Rosen, Kenneth H., Discrete Mathematics and its Applications, McGraw-Hill.",
+            "Grimaldi, Ralph P., Discrete and Combinatorial Mathematics, Pearson."
+          ]
+        },
+        {
+          "code": "UNC302",
+          "name": "Object Oriented Programming",
+          "category": "PCC",
+          "ltp": "3-0-2",
+          "credits": 4.0,
+          "contact_hours": 5,
+          "objective": "To gain understanding of object-oriented programming (OOP) principles, explore their practical uses, and acquire knowledge of diverse algorithmic methods and approaches in C++.",
+          "syllabus": [
+            "Basics of OOP: Difference between OOP and procedural programming, Classes, objects and Methods, Function overloading.",
+            "Data Abstraction & Encapsulation: Access control, Constructors, Destructor, Object lifecycle.",
+            "Polymorphism: Function and operator overloading, Runtime polymorphism, virtual functions, abstract base classes.",
+            "Inheritance: Derived classes, multiple inheritance, virtual base class, virtual destructors.",
+            "I/O Streams & Templates: Stream I/O in C++, manipulators, File handling, function templates, class templates, Exception handling.",
+            "Standards Familiarization: IEEE 730-2014, IEEE 1012-2016."
+          ],
+          "clos": [
+            "CLO1: Explain OOP principles, compare with procedural programming, and explore classes, objects, and methods.",
+            "CLO2: Implement data abstraction using classes and constructors, and achieve polymorphism through function and operator overloading.",
+            "CLO3: Apply inheritance and polymorphism concepts to enhance code reusability.",
+            "CLO4: Analyze I/O file stream, templates and exception handling for robust programming."
+          ],
+          "text_books": [
+            "Balagurusamy, E., Object Oriented Programming with C++, McGraw Hill (2021).",
+            "Langsam, Y., Augenstein, M. J. and Tenenbaum, A. M., Data Structures with C and C++, Prentice Hall (2000)."
+          ]
+        },
+        {
+          "code": "UNC501",
+          "name": "Operating Systems",
+          "category": "PCC",
+          "ltp": "3-0-2",
+          "credits": 4.0,
+          "contact_hours": 5,
+          "objective": "To understand the roles and responsibilities of an operating system in managing hardware and software resources, and to explore algorithms used for process, memory, storage, and concurrency management.",
+          "syllabus": [
+            "Introduction & System Structures: OS architecture, System Calls, System Programs, Operating-System Design.",
+            "Process Management: Process Concept, Scheduling Algorithms, IPC, Multithreading, Deadlock detection, prevention and recovery.",
+            "Concurrency: Critical Section Problem, Mutex Locks, Semaphores, Monitors, Classical synchronization problems.",
+            "Memory Management: Swapping, Paging, Segmentation, Virtual Memory, Demand Paging, Page Replacement Algorithms (FIFO, LRU, Optimal), Thrashing.",
+            "Disk & File Systems: Disk Scheduling (FCFS, SSTF, SCAN), RAID Structure. File access methods, directory structures, protection.",
+            "Standards Familiarization: IEEE 1596-1992, IEEE 754-2019, IEEE 1278, IEEE 42010-2011."
+          ],
+          "clos": [
+            "CLO1: Explain the basics of an operating system viz. system programs, system calls, user mode and kernel mode.",
+            "CLO2: Select a particular CPU scheduling algorithm for specific situation, and analyze the environment leading to deadlock and its rectification.",
+            "CLO3: Comprehend concepts related to concurrency, synchronization, and race conditions.",
+            "CLO4: Explicate memory management techniques viz. caching, paging, segmentation, virtual memory, and thrashing.",
+            "CLO5: Understand concepts related to file systems, disk-scheduling, and file storage structures."
+          ],
+          "text_books": [
+            "Silberschatz, A., Galvin, P. B., Gagne, G., Operating System Concepts, 9th ed., John Wiley (2013).",
+            "Stallings, W., Operating Systems: Internals and Design Principles, 9th ed., Prentice Hall (2018)."
+          ]
+        },
+        {
+          "code": "UEC304",
+          "name": "Electronics Devices and Circuits",
+          "category": "PCC",
+          "ltp": "3-1-2",
+          "credits": 4.5,
+          "contact_hours": 6,
+          "objective": "This course introduces fundamental principles of semiconductor devices, beginning with PN junctions and BJT operation, then focusing extensively on MOSFET device operation, CMOS digital design, and CMOS fabrication processes.",
+          "syllabus": [
+            "Introduction To Semiconductor: Energy bands, intrinsic/extrinsic semiconductors, p-n junction diode, Zener diode. BJT operation, biasing configurations, BJT switch, FET.",
+            "NMOS & CMOS Process Technology: Masking sequence of NMOS and CMOS structures, latch-up in CMOS, electrical design rules, stick diagram and layout.",
+            "MOS Transistor Theory: I-V characteristics, threshold voltage equation, body bias effect, short-channel effects, FinFET, GAA FETs, Nanosheet Transistors.",
+            "Circuit Characterization: Resistive load inverter and CMOS inverter: static and dynamic characteristics, noise margin, power dissipation.",
+            "Combinational Circuits: CMOS logic styles, realization of simple gates, complex logic circuits, transmission gates.",
+            "Standards Familiarization: IEEE 1181-1991, IEEE 1801-2024."
+          ],
+          "clos": [
+            "CLO1: Understand the working of PN junction diode and MOS transistor operation.",
+            "CLO2: Analyze static and dynamic characteristics of Resistive load Inverter and CMOS inverter.",
+            "CLO3: Implement various CMOS logic circuits and transmission gates.",
+            "CLO4: Illustrate the fabrication process and design rules for NMOS and CMOS circuits."
+          ],
+          "text_books": [
+            "Kang, S. and Leblebici, Y., CMOS Digital Integrated Circuits Analysis & Design, McGraw Hill (1999) 2nd ed.",
+            "Sedra, A. S. and Smith, K. C., Microelectronic Circuits, 4th ed., Oxford University Press (1998)."
+          ]
+        },
+        {
+          "code": "UCS321",
+          "name": "AI for Engineers",
+          "category": "PCC",
+          "ltp": "2-0-2",
+          "credits": 3.0,
+          "contact_hours": 4,
+          "objective": "To introduce students to intelligent system concepts, heuristics, state space search, knowledge representation, and practical machine learning applications tailored for engineering disciplines.",
+          "syllabus": [
+            "Introduction to AI: Intelligent agents, environments, problem formulation, search algorithms (uninformed and informed search, A*, heuristic functions).",
+            "Knowledge & Reasoning: Propositional and first-order logic, inference, ontological engineering, probabilistic reasoning, Bayesian networks.",
+            "Learning Techniques: Supervised and unsupervised learning basics, decision trees, linear models, clustering, neural network intro.",
+            "Applications & Ethics: AI applications in signal classification, computer vision, robotics, and ethical engineering considerations."
+          ],
+          "clos": [
+            "CLO1: Understand foundational artificial intelligence concepts, problem formulation, and search strategies.",
+            "CLO2: Apply knowledge representation, logical reasoning, and probabilistic inference to engineering problems.",
+            "CLO3: Implement supervised and unsupervised machine learning models using contemporary AI libraries.",
+            "CLO4: Evaluate AI solutions on real-world engineering datasets considering performance and ethical dimensions."
+          ],
+          "text_books": [
+            "Russell, S. and Norvig, P., Artificial Intelligence: A Modern Approach, 4th ed., Pearson (2020)."
+          ]
+        },
+        {
+          "code": "UTD003",
+          "name": "Aptitude Skills Building",
+          "category": "HSS",
+          "ltp": "2-0-0",
+          "credits": 2.0,
+          "contact_hours": 2,
+          "objective": "The course aims to equip students with a comprehensive understanding of quantitative, verbal, and logical reasoning concepts, enhancing their ability to solve numerical problems, interpret written information, and evaluate arguments effectively.",
+          "syllabus": [
+            "Verbal Ability & Reading Comprehension: Reading strategies, identifying main ideas, inference and tone, grammar fundamentals, sentence correction, vocabulary in context.",
+            "Quantitative Ability: Arithmetic concepts (percentages, ratios, averages), algebra (equations, inequalities, time, speed & distance), modern math (permutations, combinations, probability).",
+            "Data Interpretation & Logical Reasoning: Bar charts, pie charts, line graphs, number series, family relationships, direction sense, syllogisms."
+          ],
+          "clos": [
+            "CLO1: Ability to identify and provide solutions for complex problems and apply the basics of mathematics.",
+            "CLO2: Able to analyze and interpret data from various sources to identify trends and make data-driven comparisons.",
+            "CLO3: Able to evaluate logical reasoning scenarios to identify patterns, solve sequences, and make accurate inferences.",
+            "CLO4: Able to improve communication skills, including correcting errors, refining structure, and enhancing verbal proficiency.",
+            "CLO5: Able to analyze various types of information to identify key points, infer meaning, and understand underlying tones and purposes."
+          ],
+          "text_books": [
+            "Aggarwal, R.S., Quantitative Aptitude for Competitive Examinations, S Chand (2017).",
+            "Kundan, K., Advanced Verbal Reasoning, Tyrasons Publications (2021)."
+          ]
+        }
+      ]
+    },
+    "4": {
+      "title": "Semester IV",
+      "total_credits": 27.0,
+      "contact_hours": 32,
+      "courses": [
+        {
+          "code": "UEC716",
+          "name": "Database Management Systems",
+          "category": "PCC",
+          "ltp": "3-0-2",
+          "credits": 4.0,
+          "contact_hours": 5,
+          "objective": "To provide students with a strong foundation in the principles, design, and implementation of database systems, while understanding concepts of database architecture, normalization, transactions, and query optimization.",
+          "syllabus": [
+            "Introduction & Architecture: Data Abstraction, Data Independence, Data Definition and Data Manipulation Languages.",
+            "Data Models & Relational Algebra: Entity-relationship model, relational model, integrity constraints, Relational algebra, tuple and domain calculus.",
+            "Relational Database Design: Normalization: 1NF, 2NF, 3NF, BCNF, 4NF, 5NF, dependency preservation, lossless join decomposition.",
+            "Database Implementation & SQL: DDL, DML, joins, subqueries, aggregate functions, PL/SQL: cursors, stored procedures, functions, triggers.",
+            "Transaction Management & Concurrency Control: ACID properties, Serializability, Concurrency control, Lock-based protocols, Two-phase locking, Deadlocks.",
+            "Recovery Management: Log-based recovery, checkpoints, shadow paging.",
+            "Standards Familiarization: IEEE 610.12-1990, POSIX IEEE 1003.1."
+          ],
+          "clos": [
+            "CLO1: Analyze Information Systems as socio-technical systems, its need and advantages as compared to traditional file-based systems.",
+            "CLO2: Analyze and design database using E-R data model by identifying entities, attributes and relationships.",
+            "CLO3: Apply and create Relational Database Design process with Normalization techniques.",
+            "CLO4: Comprehend concepts of transaction management, concurrency control and recovery management.",
+            "CLO5: Demonstrate use of SQL and PL/SQL to implement database applications."
+          ],
+          "text_books": [
+            "Silberschatz, A., Korth, H. F. and Sudarshan, S., Database System Concepts, Tata McGraw Hill (2010) 6th ed.",
+            "Elmasri, R. and Navathe, B. S., Fundamentals of Database Systems, Pearson (2016) 7th ed."
+          ]
+        },
+        {
+          "code": "UNC311",
+          "name": "Probability and Statistics",
+          "category": "BSC",
+          "ltp": "3-1-0",
+          "credits": 3.5,
+          "contact_hours": 4,
+          "objective": "To introduce engineering students to fundamentals of probability and statistics required for communication systems, modelling of random variables and processes, noise modelling, autocorrelation, and source coding.",
+          "syllabus": [
+            "Unit 1: Statistics: Measures of central tendency, dispersion, moments, skewness, kurtosis.",
+            "Unit 2: Probability & Random Variables: Sample space, axioms, Bayes theorem. Discrete and continuous distributions (Bernoulli, Binomial, Poisson, Uniform, Gaussian), Joint distributions, Central Limit Theorem.",
+            "Unit 3: Random Processes & Noise Modelling: Strict-sense and wide-sense stationarity, Ergodicity, Autocorrelation, Power Spectral Density, Wiener-Khinchin theorem, AWGN model.",
+            "Unit 4: Estimation & Hypothesis Testing: Parameter estimation, MSE, Confidence intervals, Hypothesis testing, Type-I and Type-II errors, Neyman-Pearson lemma.",
+            "Unit 5: Information Theory & Coding: Entropy, Mutual information, Shannon's source coding theorem, Huffman coding, Channel capacity (BSC, BEC, AWGN)."
+          ],
+          "clos": [
+            "CLO1: Analyze and compute statistical measures to describe and interpret data characteristics and distribution behaviour across applications.",
+            "CLO2: Apply probability and random variable concepts to model and analyze discrete and continuous probability distributions.",
+            "CLO3: Analyze random processes and noise models by evaluating stationarity, ergodicity, correlation functions, and power spectral density.",
+            "CLO4: Evaluate estimation and hypothesis testing methods by assessing bias, variance, mean square error (MSE), confidence intervals, and error probabilities for engineering problems.",
+            "CLO5: Analyze information-theoretic models and coding schemes by computing entropy, mutual information, and channel capacity, and applying source coding theorems to improve transmission efficiency and reliability."
+          ],
+          "text_books": [
+            "Papoulis, A. and Pillai, S. U., Probability, Random Variables and Stochastic Processes, McGraw-Hill.",
+            "Haykin, S., Communication Systems, Wiley.",
+            "Proakis, J. G. and Salehi, M., Fundamentals of Communication Systems, Pearson."
+          ]
+        },
+        {
+          "code": "UNC402",
+          "name": "Design and Analysis of Algorithms",
+          "category": "PCC",
+          "ltp": "3-0-2",
+          "credits": 4.0,
+          "contact_hours": 5,
+          "objective": "To provide students with the knowledge and skills necessary to design and analyse algorithms for solving computational problems.",
+          "syllabus": [
+            "Complexity & Recurrence: Asymptotic notations, recurrence relations, Master theorem, Strassen multiplication, Binomial and Fibonacci heaps.",
+            "Divide and Conquer: Max subarray problem, Quick sort, Merge sort.",
+            "Dynamic Programming: Principle of optimality, Matrix chain multiplication, LCS, 0/1 Knapsack.",
+            "Greedy Algorithms: Activity selection, Huffman codes, Task scheduling.",
+            "Backtracking & Branch-and-Bound: N-Queens, Graph coloring, Hamiltonian circuits, TSP.",
+            "Graph Algorithms: Topological sort, Strongly connected components, Bellman-Ford, Ford-Fulkerson, Bitonic sorting networks.",
+            "Computational Complexity: P, NP, NP-complete, and NP-hard classes.",
+            "Standards Familiarization: IEEE 1596-1992, POSIX IEEE 1003.1."
+          ],
+          "clos": [
+            "CLO1: Analyse the complexity of algorithms and implement it in a specific scenario.",
+            "CLO2: Apply common algorithmic techniques such as greedy, dynamic programming etc. to standard computational problems.",
+            "CLO3: Design solutions by using appropriate data structures or applying algorithms such as randomized, approximation and graph.",
+            "CLO4: Develop efficient algorithms for various computational challenging problems solving in computing."
+          ],
+          "text_books": [
+            "Cormen, H. T., Leiserson, C. E., Rivest, R. L., and Stein, C., Introduction to Algorithms, MIT Press (2009) 3rd ed.",
+            "Horwitz, E., Sahni, S., Rajasekaran, S., Fundamentals of Computer Algorithms, Universities Press (2008) 2nd ed."
+          ]
+        },
+        {
+          "code": "UEC612",
+          "name": "Digital System Design",
+          "category": "PCC",
+          "ltp": "3-1-2",
+          "credits": 4.5,
+          "contact_hours": 6,
+          "objective": "To familiarize the student with analysis, design and evaluation of digital systems of medium complexity based on SSI, MSI and Programmable logic devices, timing analysis of synchronous and asynchronous systems, and HDL synthesis.",
+          "syllabus": [
+            "Binary Codes & Combinational Design: Review of binary codes, error detection/correction. Quine-McCluskey, adders, subtractors, multiplexers, decoders, ROM, PLA, PAL.",
+            "Sequential Circuits: Latches, flip-flops, universal shift registers, counters, Static Timing Analysis, FSMs (Moore & Mealy), race and hazards, hazard-free design.",
+            "Logic Families: TTL, CMOS logic families, noise margin, propagation delay, power dissipation, interfacing TTL & CMOS.",
+            "Hardware Description Languages: VHDL/Verilog modeling styles: Dataflow, Behavioral, Structural, simulation and synthesis.",
+            "Standards Familiarization: IEEE 91a-1991, IEEE 91-1984."
+          ],
+          "clos": [
+            "CLO1: Apply various minimization methods to simplify boolean functions and construct circuits using logic gates.",
+            "CLO2: Design combinational circuits and iterative networks using basic modules.",
+            "CLO3: Design and analyze sequential circuits and finite state machines.",
+            "CLO4: Evaluate performance of integrated circuits across logic families.",
+            "CLO5: Design, simulate and synthesize digital systems using HDL (VHDL/Verilog)."
+          ],
+          "text_books": [
+            "Fletcher, W.I., Engineering Approach to Digital Design, Prentice Hall of India (2007) 4th ed.",
+            "Wakerly, J.F., Digital Design Principles and Practices, Prentice Hall (2013) 5th ed."
+          ]
+        },
+        {
+          "code": "UNC403",
+          "name": "Machine Learning",
+          "category": "PCC",
+          "ltp": "3-0-2",
+          "credits": 4.0,
+          "contact_hours": 5,
+          "objective": "To build fundamental understanding of Machine Learning (ML) and its applications, covering mathematical foundations, supervised/unsupervised paradigms, and deep neural networks.",
+          "syllabus": [
+            "Introduction: Supervised, Unsupervised, Reinforcement Learning, Empirical Risk Minimization, Bayes Optimality, Maximum Likelihood & MAP, k-NN.",
+            "Regression & Classification: Linear & Logistic Regression, Regularization (Ridge, Lasso), Kernel Methods, SVM, Decision Trees, Ensemble Learning (Random Forests, Boosting), Evaluation metrics (RMSE, ROC, AUC, F1-Score).",
+            "Learning Paradigms: Clustering (k-Means, GMM, DBSCAN), Dimensionality reduction (PCA, t-SNE), Markov Decision Processes (MDP), Q-Learning.",
+            "Neural Networks: Perceptron, Backpropagation, CNN architectures, Transfer learning, Hyperparameter tuning.",
+            "Standards Familiarization: IEEE 42010-2011, IEEE 1012-2016, IEEE 7000-2021, IEEE 7001-2021."
+          ],
+          "clos": [
+            "CLO1: Comprehend fundamental concepts and terminology associated with machine learning and artificial intelligence.",
+            "CLO2: Apply various regression and classification techniques and evaluate models.",
+            "CLO3: Implement and apply machine learning algorithms for supervised, unsupervised, and reinforcement learning tasks.",
+            "CLO4: Apply and evaluate neural network models using gradient-based learning and model selection techniques."
+          ],
+          "text_books": [
+            "Alpaydin, Ethem, Introduction to Machine Learning, MIT Press.",
+            "Murphy, Kevin P., Machine Learning: A Probabilistic Perspective, MIT Press.",
+            "Bishop, Christopher M., Pattern Recognition and Machine Learning, Springer."
+          ]
+        },
+        {
+          "code": "UTA024",
+          "name": "Engineering Design Project (Buggy)",
+          "category": "ESC",
+          "ltp": "1-0-2",
+          "credits": 2.0,
+          "contact_hours": 3,
+          "objective": "The project introduces students to the challenge of electronic systems design & integration, hardware-software co-design, sensor interfacing, and coordinated team engineering.",
+          "syllabus": [
+            "Hardware Overview of Arduino: Microcontroller architecture, Eagle PCB layout tool, active and passive components.",
+            "Sensors & Actuators: IR sensors, ultrasonic sensors, DC motors, H-bridge driver circuits.",
+            "Programming & Integration: Embedded C/C++ firmware, C# application interface, serial communication, motor control algorithms.",
+            "Buggy Challenges: Autonomous track navigation, obstacle avoidance, gantry communication, multi-robot coordination."
+          ],
+          "clos": [
+            "CLO1: Recognize issues to be addressed in combined hardware and software system design.",
+            "CLO2: Draw schematic diagrams of electronic circuits and design PCB layouts using CAD tools.",
+            "CLO3: Apply hands-on experience in electronic circuit implementation and testing.",
+            "CLO4: Demonstrate programming skills by integrating coding, optimization and debugging for different robotic challenges.",
+            "CLO5: Develop group working, including task sub-division and integration of individual contributions from the team."
+          ],
+          "text_books": [
+            "McRoberts, Michael, Beginning Arduino, Technology in Action, 2nd ed. (2011).",
+            "Smith, Alan G., Introduction to Arduino: A piece of cake (2011)."
+          ]
+        },
+        {
+          "code": "UHU052",
+          "name": "The Evolutionary Basis of Human Behavior for Engineers",
+          "category": "HSS",
+          "ltp": "1-0-0",
+          "credits": 1.0,
+          "contact_hours": 1,
+          "objective": "To introduce foundational concepts of evolutionary psychology and behavioral sciences to engineering students, facilitating better understanding of team collaboration, leadership, and human-centered design.",
+          "syllabus": [
+            "Evolutionary psychology foundations, cognitive adaptations, cooperation vs competition in groups, social hierarchy and leadership, behavioral decision-making in high-stakes engineering projects."
+          ],
+          "clos": [
+            "CLO1: Understand evolutionary principles influencing human behavior and cognition.",
+            "CLO2: Analyze social dynamics, cooperation, and group decision-making in technical teams.",
+            "CLO3: Apply behavioral insights to human-centered engineering design and workplace ethics."
+          ],
+          "text_books": [
+            "Buss, David M., Evolutionary Psychology: The New Science of the Mind, Routledge (2019)."
+          ]
+        },
+        {
+          "code": "UCS421",
+          "name": "Ethics and Risk Mitigation in AI",
+          "category": "ESC",
+          "ltp": "3-0-0",
+          "credits": 3.0,
+          "contact_hours": 3,
+          "objective": "To examine ethical, legal, and safety risks in artificial intelligence systems and formulate algorithmic safeguards, compliance mechanisms, and transparent governance models.",
+          "syllabus": [
+            "AI safety, fairness, accountability, transparency (FAT), algorithmic bias, privacy, intellectual property, deepfakes, autonomous systems liability, IEEE 7000-series standards."
+          ],
+          "clos": [
+            "CLO1: Identify ethical challenges, algorithmic biases, and societal impacts in AI deployments.",
+            "CLO2: Apply regulatory frameworks, governance models, and data privacy principles to AI systems.",
+            "CLO3: Formulate risk mitigation strategies, fairness audits, and accountability mechanisms for AI engineering."
+          ],
+          "text_books": [
+            "Russell, Stuart, Human Compatible: Artificial Intelligence and the Problem of Control, Viking (2019).",
+            "Floridi, Luciano, The Ethics of Information, Oxford University Press (2013)."
+          ]
+        }
+      ]
+    },
+    "5": {
+      "title": "Semester V",
+      "total_credits": 22.0,
+      "contact_hours": 26,
+      "courses": [
+        {
+          "code": "UNC303",
+          "name": "Computer and Communication Networks",
+          "category": "PCC",
+          "ltp": "3-0-0",
+          "credits": 3.0,
+          "contact_hours": 3,
+          "objective": "To introduce basic concepts of Data communication with different models, layers of OSI and TCP/IP protocol suites, routing, congestion control, and network security.",
+          "syllabus": [
+            "Data Communication Overview: OSI model, TCP/IP protocol suite, packet switching, circuit switching.",
+            "Data Link Layer: Framing, error detection and correction, sliding window protocols (Stop-and-Wait, Go-Back-N, Selective Repeat), HDLC, MAC protocols (CSMA/CD, CSMA/CA).",
+            "Network Layer: IPv4 and IPv6 addressing, subnetting, CIDR, routing algorithms (Distance Vector, Link State, OSPF, BGP).",
+            "Transport Layer: UDP, TCP connection management, flow control, congestion control algorithms, QoS.",
+            "Application Layer & Security: DNS, HTTP, SMTP, Cryptography basics, SSL/TLS, firewalls.",
+            "Standards Familiarization: IEEE 802.3 (Ethernet), IEEE 802.11 (Wi-Fi), IEEE 802.15.1 (Bluetooth)."
+          ],
+          "clos": [
+            "CLO1: Understand the layered architecture of Internet's reference models: OSI & TCP/IP and basis of physical layer and media.",
+            "CLO2: Analyze design issues, framing, error detection and correction, channel allocation techniques and link layer protocols.",
+            "CLO3: Evaluate network layer, internetworking, IP and IP addressing mechanisms.",
+            "CLO4: Apply various routing algorithms, elements of transport protocols, congestion control, and QOS in networks.",
+            "CLO5: Understand various communication applications like email, web browser, and familiarization with cryptography and network security."
+          ],
+          "text_books": [
+            "Forouzan, B. A., Data Communications and Networking, McGraw Hill, 5th ed. (2017).",
+            "Tanenbaum, A. S., Computer Networks, Pearson, 5th ed. (2013)."
+          ]
+        },
+        {
+          "code": "UEC610",
+          "name": "Computer Architecture",
+          "category": "PCC",
+          "ltp": "3-1-0",
+          "credits": 3.5,
+          "contact_hours": 4,
+          "objective": "To introduce state-of-the-art parallelism in RISC architectures, memory optimization, pipelining, multiprocessor configurations, and GPU clusters using CUDA.",
+          "syllabus": [
+            "Modern Computer Design: CISC vs RISC, Amdahl's Law, CPU performance equation, Benchmarking.",
+            "Instruction Set Principles: Register-memory vs load-store, addressing modes, compiler interactions.",
+            "Pipelining & Parallelism: Five-stage RISC pipeline, structural/data/control hazards, branch prediction, RISC-V implementation, loop unrolling.",
+            "Multi-Core & GPUs: Multiprocessor architectures, GPU clusters, CUDA programming, cache coherence, snoopy protocols.",
+            "Memory Hierarchy Design: Cache organization, cache miss reduction techniques, virtual memory, TLB, page tables.",
+            "Standards Familiarization: IEEE 754 floating point arithmetic, IEEE 802, IEEE 1516."
+          ],
+          "clos": [
+            "CLO1: Apply Amdahl's law and Processor Performance Equation to evaluate system performance.",
+            "CLO2: Characterize processor instruction set architecture and addressing modes.",
+            "CLO3: Identify concepts of parallelism, pipelining, and hazard removal.",
+            "CLO4: Demonstrate GPU-based system acceleration using CUDA programming.",
+            "CLO5: Investigate Memory Hierarchy design, memory addressing, and address translation."
+          ],
+          "text_books": [
+            "Hennessy, J. L. and Patterson, D. A., Computer Architecture: A Quantitative Approach, Morgan Kaufmann, 6th ed.",
+            "Wilt, Nicholas, The CUDA Handbook: A Comprehensive Guide to GPU Programming (2013)."
+          ]
+        },
+        {
+          "code": "UEC504",
+          "name": "Signal System and Processing",
+          "category": "PCC",
+          "ltp": "3-1-2",
+          "credits": 4.5,
+          "contact_hours": 6,
+          "objective": "To develop analytical capability in continuous and discrete-time signals and systems, Fourier and Z-transforms, and designing FIR and IIR digital filters.",
+          "syllabus": [
+            "Signals & Systems Representation: Continuous and discrete-time signals, LTI systems, convolution, sampling theorem.",
+            "Frequency Characterization: Continuous/discrete Fourier series and transforms, transfer function, impulse response.",
+            "Z-Transform: Region of convergence, inverse Z-transform, difference equations.",
+            "Discrete Fourier Transforms (DFT): Fast Fourier Transform (FFT), Radix-2 decimation in time/frequency.",
+            "Digital Filter Design: FIR filter design using windowing, IIR filter design (Butterworth, Chebyshev), realization structures (Direct I/II, cascade, parallel).",
+            "Standards Familiarization: IEEE 1641-2010, IEEE 21451-001-2017."
+          ],
+          "clos": [
+            "CLO1: Analyze different properties of continuous and discrete-time signals and systems.",
+            "CLO2: Represent signals and systems in frequency domain using Fourier tools.",
+            "CLO3: Apply Z-transform to analyze discrete-time signals and systems.",
+            "CLO4: Design and implement digital discrete-time filters (FIR/IIR)."
+          ],
+          "text_books": [
+            "Oppenheim, A. V. and Willsky, A. S., Signals & Systems, Prentice Hall (1997).",
+            "Proakis, J. G., Manolakis, D. G., Digital Signal Processing, Pearson (2013)."
+          ]
+        },
+        {
+          "code": "UNC514",
+          "name": "Data Science Fundamentals (Elective-I)",
+          "category": "PEC",
+          "ltp": "2-0-2",
+          "credits": 3.0,
+          "contact_hours": 4,
+          "objective": "To teach fundamental methods of data collection, wrangling, statistical inference, visualization, and building predictive analytics pipelines.",
+          "syllabus": [
+            "Data science lifecycle, data ingestion, cleaning, transformation, exploratory data analysis (EDA), statistical inference, hypothesis testing, predictive modeling using Python, data storytelling."
+          ],
+          "clos": [
+            "CLO1: Understand data science pipelines and methods for acquiring structured and unstructured data.",
+            "CLO2: Perform exploratory data analysis and statistical visualization.",
+            "CLO3: Build and evaluate predictive regression and classification models.",
+            "CLO4: Communicate data insights and deploy scalable data analysis workflows."
+          ],
+          "text_books": [
+            "McKinney, Wes, Python for Data Analysis, O'Reilly Media (2022)."
+          ]
+        },
+        {
+          "code": "UEC523",
+          "name": "Applications of AI for Electronic Systems",
+          "category": "PCC",
+          "ltp": "2-0-2",
+          "credits": 3.0,
+          "contact_hours": 4,
+          "objective": "To equip students with techniques for deploying artificial intelligence and machine learning algorithms onto resource-constrained embedded systems and electronic hardware.",
+          "syllabus": [
+            "Edge AI foundations, TinyML, model quantization, pruning, microcontroller deployment (ARM Cortex-M), sensor fusion, predictive maintenance, automated circuit fault diagnosis."
+          ],
+          "clos": [
+            "CLO1: Understand machine learning techniques tailored for electronic sensor data.",
+            "CLO2: Implement TinyML and embedded AI models on microcontrollers and edge hardware.",
+            "CLO3: Optimize neural network models for power, latency, and memory-constrained electronic systems.",
+            "CLO4: Apply AI algorithms to fault detection, circuit optimization, and signal classification."
+          ],
+          "text_books": [
+            "Warden, Pete and Situnayake, Daniel, TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers, O'Reilly (2019)."
+          ]
+        },
+        {
+          "code": "UEC522",
+          "name": "Practices in Electronics Fabrication",
+          "category": "ESC",
+          "ltp": "1-0-2",
+          "credits": 2.0,
+          "contact_hours": 3,
+          "objective": "To provide fundamental understanding of integrated circuit (IC) fabrication and packaging technologies, crystal growth, planar processing, layout rules, and packaging.",
+          "syllabus": [
+            "Integrated Circuits: Evolution of IC technology, monolithic vs hybrid, SSI to ULSI, Moore's Law.",
+            "Wafer Growth: Czochralski, Float Zone methods, slicing, polishing, chemical mechanical planarization.",
+            "Planar Fabrication: Cleanroom technology, oxidation, diffusion, ion implantation, CVD, PVD, photolithography, etching (wet/dry), metallization.",
+            "Design Rules & Packaging: Lambda design rules, aspect ratio, stick diagrams. IC packaging (DIP, QFP, BGA, CSP), wire bonding.",
+            "Standards Familiarization: IEEE Std 255-1963, IEEE P1838, IEEE P370, IEEE 1149.1."
+          ],
+          "clos": [
+            "CLO1: Explain fundamentals of integrated circuits, semiconductor materials, crystal growth, and wafer preparation.",
+            "CLO2: Apply principles of oxidation, diffusion, ion implantation, lithography, etching, and metallization to describe planar IC fabrication.",
+            "CLO3: Analyse and apply various IC Design rules.",
+            "CLO4: Understand Packaging technologies by considering electrical, thermal, and mechanical performance requirements."
+          ],
+          "text_books": [
+            "Campbell, Stephen A., Fabrication Principles of Silicon Integrated Circuits, Oxford University Press.",
+            "Sze, S. M., VLSI Technology, McGraw Hill."
+          ]
+        },
+        {
+          "code": "UTA025",
+          "name": "Innovation & Entrepreneurship",
+          "category": "HSS",
+          "ltp": "1-0-2",
+          "credits": 3.0,
+          "contact_hours": 3,
+          "objective": "To provide students with basic understanding of entrepreneurship, frameworks for opportunity discovery, business model design, and venture finance.",
+          "syllabus": [
+            "Introduction to Entrepreneurship: Personality, traits, entrepreneurial challenges.",
+            "Opportunity Identification: Discovery vs creation, prototype and exemplar models, reverse engineering.",
+            "Business Models & Lean Startups: Business Model Canvas, value proposition design, lean startup methodology, customer validation, pitching.",
+            "Venture Finance: Sources of capital, bootstrap vs angel/VC funding, capitalization tables, financial forecasting."
+          ],
+          "clos": [
+            "CLO1: Explain fundamentals behind entrepreneurial personality and intentions.",
+            "CLO2: Discover, evaluate, and validate business opportunities.",
+            "CLO3: Identify stakeholders and develop strong value propositions.",
+            "CLO4: Describe business models and construct a functional Business Model Canvas.",
+            "CLO5: Analyse and select suitable finance and revenue models for startup ventures."
+          ],
+          "text_books": [
+            "Ries, Eric, The Lean Startup, Penguin Books (2011).",
+            "Blank, Steve, The Startup Owner's Manual, K&S Ranch (2013)."
+          ]
+        }
+      ]
+    },
+    "6": {
+      "title": "Semester VI",
+      "total_credits": 20.0,
+      "contact_hours": 27,
+      "courses": [
+        {
+          "code": "UEC614",
+          "name": "Digital Communication",
+          "category": "PCC",
+          "ltp": "3-1-2",
+          "credits": 4.5,
+          "contact_hours": 6,
+          "objective": "To build foundation for communication system design focusing on challenges of transmission/reception over physical channels in the presence of noise and interference.",
+          "syllabus": [
+            "Introduction to Modulation: Sampling process, PAM, PCM, DPCM, Delta Modulation, Adaptive DM, TDM.",
+            "Baseband Transmission: Line coding formats (NRZ, RZ, Manchester), ISI, Nyquist criterion, Correlative coding.",
+            "Detection & Estimation: Gram-Schmidt orthogonalization, MAP criterion, maximum likelihood decision, matched filter receivers.",
+            "Digital Modulation Techniques: ASK, FSK, BPSK, QPSK, M-ary QAM, MSK, bit error rate calculations over AWGN channel.",
+            "Error Control Coding: Linear block codes, syndrome decoding, cyclic codes, convolutional codes, Viterbi decoding.",
+            "Standards Familiarization: IEEE 1241-2023, IEEE 1658-2011, IEEE 802 Family."
+          ],
+          "clos": [
+            "CLO1: Explain concepts of AM, FM, and digital pulse modulation.",
+            "CLO2: Analyze pulse modulation techniques and baseband waveform shaping.",
+            "CLO3: Perform statistical analysis of modulated waveforms from estimation and detection perspective.",
+            "CLO4: Evaluate performance of digital modulation techniques operating over AWGN channels.",
+            "CLO5: Analyze and apply error control coding in digital communication systems."
+          ],
+          "text_books": [
+            "Proakis, J. G. and Salehi, M., Communication Systems Engineering, Pearson (2002).",
+            "Haykin, Simon, Digital Communications, Wiley (1988)."
+          ]
+        },
+        {
+          "code": "UEC615",
+          "name": "Embedded Systems and IoT",
+          "category": "PCC",
+          "ltp": "3-0-2",
+          "credits": 4.0,
+          "contact_hours": 5,
+          "objective": "To equip students with necessary knowledge of C++ firmware development, ARM processor architecture and interfacing, and protocols required to build real-life IoT projects.",
+          "syllabus": [
+            "Embedded Systems Architecture: General vs Embedded systems, Object-oriented firmware in C++, GPIO drivers, register access.",
+            "ARM Processor: Architecture, register set, CPSR, ARM vs Thumb state, instruction set, interrupts, exceptions.",
+            "Peripherals & Protocols: AMBA bus, DMA, UART, I2C, SPI interfacing, memory management unit.",
+            "Internet of Things (IoT): Architectural overview, sensing, actuation, M2M, MQTT, ZigBee, CoAP, HTTP, cloud platforms for IoT, edge computing.",
+            "Standards Familiarization: IEEE P2413-2019, IEEE 1451, IEEE 802.15.4, IEEE P1838."
+          ],
+          "clos": [
+            "CLO1: Understand embedded system models using C++ language.",
+            "CLO2: Understand internal architecture of ARM processor, register structure, and addressing modes.",
+            "CLO3: Design ARM interfacing with memory, I/O devices, and peripherals using C++.",
+            "CLO4: Analyze design aspects of hardware and software components of IoT including protocols.",
+            "CLO5: Design interfaces for I/O devices, sensors, and communication modules."
+          ],
+          "text_books": [
+            "Hamacher, C., Vranesic, Z., Zaky, S., Computer Organization and Embedded Systems, McGraw Hill (2012).",
+            "Furber, Steve, ARM System-on-Chip Architecture, Pearson (2013).",
+            "Bahga, A. and Madisetti, V., Internet of Things: A Hands-on Approach, Universities Press."
+          ]
+        },
+        {
+          "code": "UNC602",
+          "name": "Theory of Computation",
+          "category": "PCC",
+          "ltp": "3-1-0",
+          "credits": 3.5,
+          "contact_hours": 4,
+          "objective": "To introduce formal methods of computation, automata theory, formal languages, grammars, computability, and complexity classes.",
+          "syllabus": [
+            "Automata & Regular Expressions: DFA, NFA, epsilon transitions, regular expressions, pumping lemma, DFA minimization.",
+            "Grammars & Pushdown Automata: Chomsky hierarchy, Context-free grammars, CNF, GNF, Pushdown Automata, ambiguity.",
+            "Turing Machines: Turing machine models, Church-Turing thesis, Universal Turing Machines, Halting problem.",
+            "Decidability & Complexity: Post Correspondence Problem, Rice's theorem, P, NP, and NP-complete complexity classes.",
+            "Standards Familiarization: IEEE 42010-2011, IEEE 1012-2016, IEEE 1061-1998, IEEE 730-2014."
+          ],
+          "clos": [
+            "CLO1: Comprehend regular languages and finite automata and establish equivalence between regular expressions, NFAs, and DFAs.",
+            "CLO2: Disambiguate context-free grammars and understand concepts of context-free languages and pushdown automata.",
+            "CLO3: Analyse and design efficient Turing Machines.",
+            "CLO4: Distinguish different computing languages and classify their respective computational complexity types."
+          ],
+          "text_books": [
+            "Martin, John C., Introduction to Languages and the Theory of Computation, McGraw Hill.",
+            "Hopcroft, J. E., Motwani, R., Ullman, J. D., Introduction to Automata Theory, Languages and Computation, Pearson."
+          ]
+        },
+        {
+          "code": "UEC633",
+          "name": "Network Security and Cryptography (Elective-II)",
+          "category": "PEC",
+          "ltp": "2-0-2",
+          "credits": 3.0,
+          "contact_hours": 4,
+          "objective": "To study cryptographic algorithms, public-key infrastructure, digital signatures, authentication protocols, and modern network intrusion defense mechanisms.",
+          "syllabus": [
+            "Symmetric ciphers (DES, AES), Public-key cryptography (RSA, ECC), Hash functions (SHA-2/3), Digital signatures, Key exchange (Diffie-Hellman), IPsec, TLS, firewalls, zero-trust architecture."
+          ],
+          "clos": [
+            "CLO1: Understand cryptographic principles and classical ciphers.",
+            "CLO2: Apply symmetric and asymmetric encryption algorithms to secure communications.",
+            "CLO3: Implement hashing, digital signatures, and authentication protocols.",
+            "CLO4: Analyze network vulnerabilities and design defense-in-depth security strategies."
+          ],
+          "text_books": [
+            "Stallings, William, Cryptography and Network Security: Principles and Practice, Pearson (2020)."
+          ]
+        },
+        {
+          "code": "UEC635",
+          "name": "Blockchain Technology (Elective-III)",
+          "category": "PEC",
+          "ltp": "2-0-2",
+          "credits": 3.0,
+          "contact_hours": 4,
+          "objective": "To introduce distributed ledger technology, consensus mechanisms, smart contract development, and decentralized applications (DApps).",
+          "syllabus": [
+            "Distributed systems, cryptographic hash pointers, Merkle trees, Bitcoin protocol, Proof of Work/Stake, Ethereum, smart contracts with Solidity, decentralized finance, enterprise blockchains."
+          ],
+          "clos": [
+            "CLO1: Explain concepts of distributed ledgers and blockchain architectures.",
+            "CLO2: Analyze consensus algorithms including Proof of Work and Proof of Stake.",
+            "CLO3: Develop and deploy smart contracts on modern blockchain platforms.",
+            "CLO4: Evaluate enterprise blockchain use-cases in supply chain, identity, and finance."
+          ],
+          "text_books": [
+            "Narayanan, A. et al., Bitcoin and Cryptocurrency Technologies, Princeton University Press (2016)."
+          ]
+        },
+        {
+          "code": "UNC603",
+          "name": "Programming Practices Lab - I",
+          "category": "PCC",
+          "ltp": "0-0-4",
+          "credits": 2.0,
+          "contact_hours": 4,
+          "objective": "To provide intensive programming practice strengthening problem-solving ability through regular coding exercises based on data structures and algorithmic techniques for technical interviews.",
+          "syllabus": [
+            "Programming in Java: OOP concepts, collections, multithreading, stream API.",
+            "Programming in Python: Core constructs, scripting, rapid prototyping.",
+            "Structured Problem Solving: Competitive programming problems, complexity optimization, interview-style scenario testing.",
+            "Standards Familiarization: IEEE 1061-1998, IEEE 1012-2016, IEEE 730-2014, POSIX IEEE 1003.1."
+          ],
+          "clos": [
+            "CLO1: Apply programming skills in Java/Python to solve computational problems.",
+            "CLO2: Implement solutions using appropriate data structures and algorithmic techniques.",
+            "CLO3: Develop logical reasoning and structured problem-solving ability through coding practice.",
+            "CLO4: Perform timed programming tasks with attention to correctness and efficiency."
+          ],
+          "text_books": [
+            "Halim, Steven and Halim, Felix, Competitive Programming, CP Handbook.",
+            "McDowell, Gayle Laakmann, Cracking the Coding Interview, CareerCup."
+          ]
+        },
+        {
+          "code": "UEC797_A",
+          "name": "Capstone Project (Starts - Part I)",
+          "category": "PRJ",
+          "ltp": "1-0-2",
+          "credits": 1.0,
+          "contact_hours": 2,
+          "objective": "Culmination of undergraduate curriculum demonstrating students' attainment of program outcomes through solving real-world interdisciplinary problems.",
+          "syllabus": [
+            "Problem definition, specification development, literature survey, concept generation, concept evaluation, preliminary design, implementation strategy, and project planning."
+          ],
+          "clos": [
+            "CLO1: Identify a technological need in society or industry and formulate it into a specific engineering problem.",
+            "CLO2: Design and develop practical hardware, software, or integrated solutions using interdisciplinary engineering knowledge.",
+            "CLO3: Recognize the importance of engineering solutions that consider safety, economic, environmental, and societal impacts.",
+            "CLO4: Demonstrate effective teamwork by contributing meaningfully to group-based project tasks in a multidisciplinary environment.",
+            "CLO5: Communicate technical ideas and project outcomes clearly and professionally with diverse audiences.",
+            "CLO6: Assess engineering solutions with respect to ethical responsibilities adhering to professional canons."
+          ],
+          "text_books": [
+            "Capstone Project Guidelines Manual, Department of ECE, TIET (2025)."
+          ]
+        }
+      ]
+    },
+    "7": {
+      "title": "Semester VII",
+      "total_credits": 20.0,
+      "contact_hours": 16,
+      "courses": [
+        {
+          "code": "UHU005",
+          "name": "Humanities for Engineers",
+          "category": "HSS",
+          "ltp": "2-0-2",
+          "credits": 3.0,
+          "contact_hours": 4,
+          "objective": "To understand psychological, ethical, and economic foundations influencing individual and organizational behavior, ethical decision-making, and macroeconomic systems.",
+          "syllabus": [
+            "Behavioral Foundations: Motives, emotions, cognition, emotional intelligence, group dynamics, Transactional Analysis.",
+            "Human Values & Ethics: Values spectrum, moral development (Kohlberg), ethical frameworks (Kant), whistleblowing, CSR.",
+            "Economic Perspective: Demand and supply, market structures, project appraisal, inflation, GDP, Globalization, WTO, GATT.",
+            "Laboratory Work: Behavioral modification simulations, personality assessment, capital budgeting exercises, macroeconomic case studies."
+          ],
+          "clos": [
+            "CLO1: Improve understanding of human behavior with the help of interplay of professional, psychological and economic activities.",
+            "CLO2: Apply knowledge of basic principles of psychology, economics and ethics for the solution of engineering problems.",
+            "CLO3: Explain the impact of contemporary issues in psychology, economics and ethical principles on engineering."
+          ],
+          "text_books": [
+            "Morgan, C. T., King, R. A., Weisz, J. R., Introduction to Psychology, McGraw Hill.",
+            "Tripathi, A. N., Human Values, New Age International (2009).",
+            "Krugman, Paul and Wells, Robin, Economics, W.H. Freeman & Co (2015)."
+          ]
+        },
+        {
+          "code": "UEC823",
+          "name": "Soft Computing (Elective-IV)",
+          "category": "PEC",
+          "ltp": "2-0-2",
+          "credits": 3.0,
+          "contact_hours": 4,
+          "objective": "To introduce fuzzy logic, neural networks, genetic algorithms, and hybrid soft computing systems capable of handling imprecision and uncertainty in engineering.",
+          "syllabus": [
+            "Fuzzy Sets & Logic: Membership functions, fuzzy relations, defuzzification, fuzzy rule-based inference.",
+            "Neural Networks: Feedforward networks, backpropagation, radial basis functions, self-organizing maps.",
+            "Evolutionary Computing: Genetic algorithms, chromosome encoding, crossover, mutation, fitness evaluation, multi-objective optimization.",
+            "Hybrid Systems: Neuro-fuzzy systems (ANFIS), evolutionary neural networks, real-world control applications."
+          ],
+          "clos": [
+            "CLO1: Understand theoretical foundations of fuzzy logic, neural networks, and evolutionary algorithms.",
+            "CLO2: Design and implement fuzzy inference systems for engineering control problems.",
+            "CLO3: Apply genetic algorithms to solve complex non-linear optimization tasks.",
+            "CLO4: Develop hybrid intelligent systems combining neural and fuzzy approaches."
+          ],
+          "text_books": [
+            "Jang, J. S. R., Sun, C. T., Mizutani, E., Neuro-Fuzzy and Soft Computing, Prentice Hall.",
+            "Rajasekaran, S. and Pai, G. A. V., Neural Networks, Fuzzy Logic, and Genetic Algorithms, PHI."
+          ]
+        },
+        {
+          "code": "UCS002",
+          "name": "Introduction to Cyber Security (Generic Elective)",
+          "category": "OEC",
+          "ltp": "2-0-0",
+          "credits": 2.0,
+          "contact_hours": 2,
+          "objective": "To introduce basic principles of cyber security, threats, malware, identity theft, web application security, and cyber laws.",
+          "syllabus": [
+            "Cyber security landscape, attack vectors, social engineering, malware types, browser security, authentication best practices, IT Act 2000, digital privacy."
+          ],
+          "clos": [
+            "CLO1: Understand fundamental concepts of cyberspace, security threats, and vulnerabilities.",
+            "CLO2: Apply security practices to safeguard personal and organizational digital assets.",
+            "CLO3: Recognize legal and ethical implications under national and international cyber laws."
+          ],
+          "text_books": [
+            "Singer, P. W. and Friedman, Allan, Cybersecurity and Cyberwar: What Everyone Needs to Know, Oxford University Press."
+          ]
+        },
+        {
+          "code": "UVD701",
+          "name": "CAD for VLSI (Elective-V)",
+          "category": "PEC",
+          "ltp": "2-0-2",
+          "credits": 3.0,
+          "contact_hours": 4,
+          "objective": "To teach algorithmic methods for automated VLSI physical design, layout synthesis, placement, routing, and timing closure.",
+          "syllabus": [
+            "VLSI design cycle, graph theory models for layout, partitioning (KL, FM algorithms), floorplanning, placement algorithms, global and detailed routing, clock tree synthesis."
+          ],
+          "clos": [
+            "CLO1: Explain electronic design automation (EDA) flows for VLSI circuits.",
+            "CLO2: Implement partitioning, floorplanning, and placement algorithms.",
+            "CLO3: Analyze routing algorithms and timing optimization techniques.",
+            "CLO4: Use industry CAD tools to synthesize, simulate, and verify integrated circuits."
+          ],
+          "text_books": [
+            "Sait, S. M. and Youssef, H., VLSI Physical Design Automation: Theory and Practice, World Scientific.",
+            "Sherwani, N. A., Algorithms for VLSI Physical Design Automation, Springer."
+          ]
+        },
+        {
+          "code": "UNC703",
+          "name": "Programming Practices Lab - II",
+          "category": "PCC",
+          "ltp": "0-0-2",
+          "credits": 1.0,
+          "contact_hours": 2,
+          "objective": "Advanced competitive programming, dynamic programming on trees, advanced graph theory, and real-time coding assessments.",
+          "syllabus": [
+            "Advanced dynamic programming, bitmask DP, segment trees, fenwick trees, flow networks, heavy-light decomposition, placement mock interviews."
+          ],
+          "clos": [
+            "CLO1: Apply advanced programming techniques in Java/Python to complex algorithmic problems.",
+            "CLO2: Implement tree and graph algorithms with optimal time and space complexity.",
+            "CLO3: Formulate strategies for complex competitive programming and technical interviews.",
+            "CLO4: Perform timed problem solving demonstrating code robustness and edge-case handling."
+          ],
+          "text_books": [
+            "Halim, Steven, Competitive Programming 4.",
+            "Kleinberg, Jon and Tardos, Eva, Algorithm Design, Pearson."
+          ]
+        },
+        {
+          "code": "UEC797_B",
+          "name": "Capstone Project (End - Part II)",
+          "category": "PRJ",
+          "ltp": "0-0-2",
+          "credits": 8.0,
+          "contact_hours": 2,
+          "objective": "Completion, prototyping, hardware/software validation, and public defense of the Capstone Project.",
+          "syllabus": [
+            "Detailed design, simulation, prototyping, testing and validation, impact analysis, patent filing / paper publication, final report, oral examination."
+          ],
+          "clos": [
+            "CLO1: Formulate and implement end-to-end engineering solutions addressing real-world problems.",
+            "CLO2: Validate engineered prototypes through rigorous experimental and simulation benchmarks.",
+            "CLO3: Evaluate societal, safety, and environmental impacts of the engineered solution.",
+            "CLO4: Demonstrate effective team leadership and collaborative workflow management.",
+            "CLO5: Defend project deliverables through professional oral presentations and technical reports.",
+            "CLO6: Uphold professional ethics and intellectual property standards in engineering practice."
+          ],
+          "text_books": [
+            "Capstone Project Guidelines Manual, Department of ECE, TIET (2025)."
+          ]
+        }
+      ]
+    },
+    "8": {
+      "title": "Semester VIII",
+      "total_credits": 15.0,
+      "contact_hours": 7,
+      "courses": [
+        {
+          "code": "UNC801",
+          "name": "Information Retrieval",
+          "category": "PEC",
+          "ltp": "3-0-0",
+          "credits": 3.0,
+          "contact_hours": 3,
+          "objective": "To provide a comprehensive introduction to fundamental concepts, algorithms, and techniques in Information Retrieval (IR) including indexing, querying, ranking documents, vector space models, and ML for retrieval.",
+          "syllabus": [
+            "Introduction & Inverted Indexes: Boolean queries, bi-word indexes, positional indexes, tokenization.",
+            "Index Construction: Blocked sort-based indexing, single-pass in-memory indexing, distributed indexing, index compression (Heap's law, Zipf's law, dictionary compression).",
+            "Scoring & Ranking: Tf-idf weighting, vector space model, cosine similarity, champion lists, tiered indexes.",
+            "Link Analysis & Web Search: PageRank, HITS, duplicate detection (shingling, min-hashing).",
+            "Retrieval using ML: Word embeddings, learning to rank, classification-based retrieval.",
+            "Standards Familiarization: IEEE 610.12-1990, IEEE 1061-1998, IEEE 1012-2016, IEEE 730-2014, IEEE 754-2019."
+          ],
+          "clos": [
+            "CLO1: Comprehend fundamental concepts and terminology associated with Information retrieval.",
+            "CLO2: Understand and evaluate various types of indices and efficient storage of indices.",
+            "CLO3: Evaluate scoring strategies and ranking models.",
+            "CLO4: Analyze and implement advanced indexing, link analysis, and duplicate detection techniques for scalable web search.",
+            "CLO5: Utilize machine learning methods for intelligent information retrieval."
+          ],
+          "text_books": [
+            "Manning, C. D., Raghavan, P., Schutze, H., Introduction to Information Retrieval, Cambridge University Press (2008).",
+            "Buttcher, S., Clarke, C. L. A., Cormack, G. V., Information Retrieval: Implementing and Evaluating Search Engines, MIT Press."
+          ]
+        },
+        {
+          "code": "UNC802",
+          "name": "Prompt Engineering",
+          "category": "PEC",
+          "ltp": "2-0-2",
+          "credits": 3.0,
+          "contact_hours": 4,
+          "objective": "To provide students with a structured and practical understanding of Prompt Engineering, systematic input design for Large Language Models (LLMs), prompt patterns, optimization strategies, and responsible use of Generative AI.",
+          "syllabus": [
+            "Introduction: Generative AI tools, prompt anatomy, role-based prompting, temperature and sampling parameters.",
+            "Basic & Advanced Prompting: Zero-shot, Few-shot, Chain-of-Thought (CoT), Tree-of-Thought, Directional stimulus prompting, ReAct frameworks.",
+            "Prompting for Complex Workflows: Decomposition, retrieval-augmented generation (RAG) prompt patterns, structured outputs (JSON/YAML), constraints.",
+            "Evaluation & Safety: Output validation, hallucination mitigation, jailbreak defense, ethical AI, privacy considerations.",
+            "Standards Familiarization: IEEE 7000-2021, IEEE 7001-2021, IEEE 7002-2022, IEEE 1012-2016."
+          ],
+          "clos": [
+            "CLO1: Understand basic concepts of prompt engineering and its role in Generative AI systems.",
+            "CLO2: Write clear and effective prompts using common prompting techniques.",
+            "CLO3: Apply prompt design methods for structured and multi-step engineering tasks.",
+            "CLO4: Evaluate AI-generated responses and demonstrate responsible and ethical use of Generative AI tools."
+          ],
+          "text_books": [
+            "Tunstall, L., Werra, L., Wolf, T., Natural Language Processing with Transformers, O'Reilly (2022).",
+            "Jurafsky, D. and Martin, J., Speech and Language Processing (Selected Chapters on Transformers and Prompting)."
+          ]
+        },
+        {
+          "code": "UNC891",
+          "name": "Project / Internship Semester",
+          "category": "PRJ",
+          "ltp": "0-0-15",
+          "credits": 9.0,
+          "contact_hours": 15,
+          "objective": "To provide students with intensive full-semester industrial or capstone research experience, applying electronics and computer engineering skills to solve enterprise-level challenges.",
+          "syllabus": [
+            "Full-time industry internship / sponsored research project / startup incubation. Engineering specification, design, execution, testing, mentor evaluation, technical report, and final presentation."
+          ],
+          "clos": [
+            "CLO1: Formulate and execute industry-relevant technical solutions applying electronics and computer engineering principles.",
+            "CLO2: Implement, test, and document complex engineering artifacts adhering to professional engineering standards.",
+            "CLO3: Demonstrate effective project management, oral defense, and professional ethics in workplace settings."
+          ],
+          "text_books": [
+            "Industry Internship and Project Guidelines, TIET (2025)."
+          ]
+        }
+      ]
+    }
+  },
+  "courses_index": [
+    {
+      "code": "UPH013",
+      "name": "Physics",
+      "semester": 1,
+      "category": "BSC",
+      "ltp": "3-1-2",
+      "credits": 4.5,
+      "contact_hours": 6,
+      "clos": [
+        "CLO1: Understand damped and simple harmonic motion, the role of reverberation in designing a hall and generation and detection of ultrasonic waves.",
+        "CLO2: Use Maxwell's equations to describe propagation of EM waves in a medium.",
+        "CLO3: Demonstrate interference, diffraction and polarization of light.",
+        "CLO4: Explain the working principle of Lasers.",
+        "CLO5: Use the concept of wave function to find probability of a particle confined in a box.",
+        "CLO6: Perform an experiment, collect data, tabulate and report them and interpret the results with error analysis."
+      ],
+      "file": "curriculum/Semester_1/UPH013_Physics.md"
+    },
+    {
+      "code": "UES101",
+      "name": "Engineering Drawing",
+      "semester": 1,
+      "category": "ESC",
+      "ltp": "2-4-0",
+      "credits": 4.0,
+      "contact_hours": 6,
+      "clos": [
+        "CLO1: Creatively comprehend the geometrical details of common engineering objects.",
+        "CLO2: Draw dimensioned orthographic and isometric projections of simple engineering objects.",
+        "CLO3: Interpret the meaning and intent of limits, fits and tolerances in the drawing.",
+        "CLO4: Create/edit the engineering drawings for simple engineering objects using 2D drafting software.",
+        "CLO5: Create/edit 3D models of engineering components using 3D modelling software."
+      ],
+      "file": "curriculum/Semester_1/UES101_Engineering_Drawing.md"
+    },
+    {
+      "code": "UHU003",
+      "name": "Professional Communication",
+      "semester": 1,
+      "category": "HSS",
+      "ltp": "2-0-2",
+      "credits": 3.0,
+      "contact_hours": 4,
+      "clos": [
+        "CLO1: Apply communication concepts for effective interpersonal communication.",
+        "CLO2: Speak assertively and effectively.",
+        "CLO3: Interpret non-verbal cues in professional communication.",
+        "CLO4: Write objectively, purposefully and effectively.",
+        "CLO5: Design effective resumes and reports."
+      ],
+      "file": "curriculum/Semester_1/UHU003_Professional_Communication.md"
+    },
+    {
+      "code": "UES102",
+      "name": "Manufacturing Processes",
+      "semester": 1,
+      "category": "ESC",
+      "ltp": "2-0-2",
+      "credits": 3.0,
+      "contact_hours": 4,
+      "clos": [
+        "CLO1: Identify & analyse various machining processes/operations for manufacturing of industrial components.",
+        "CLO2: Apply the basic principle of bulk and sheet metal forming operations.",
+        "CLO3: Apply the knowledge of metal casting for different requirements.",
+        "CLO4: Identify and analyse the requirements for achieving a sound welded joint and apply the concept of smart manufacturing."
+      ],
+      "file": "curriculum/Semester_1/UES102_Manufacturing_Processes.md"
+    },
+    {
+      "code": "UMA022",
+      "name": "Calculus for Engineers",
+      "semester": 1,
+      "category": "BSC",
+      "ltp": "3-1-0",
+      "credits": 3.5,
+      "contact_hours": 4,
+      "clos": [
+        "CLO1: Examine functions of several variables, define and compute partial derivatives, directional derivatives, and their use in finding maxima and minima in engineering problems.",
+        "CLO2: Evaluate multiple integrals in Cartesian and Polar coordinates, and their applications to find areas and volumes.",
+        "CLO3: Determine the convergence/divergence of infinite series, approximation of functions using power and series expansion and error estimation in engineering problems.",
+        "CLO4: Represent complex numbers in Cartesian and Polar forms and test the analyticity of complex functions by using Cauchy Riemann equations."
+      ],
+      "file": "curriculum/Semester_1/UMA022_Calculus_for_Engineers.md"
+    },
+    {
+      "code": "UES104",
+      "name": "Boot Camp",
+      "semester": 1,
+      "category": "BSC",
+      "ltp": "1-0-0",
+      "credits": 1.0,
+      "contact_hours": 1,
+      "clos": [
+        "CLO1: Acquire orientation on engineering fundamentals and interdisciplinary tools.",
+        "CLO2: Understand institutional ethics, collaborative workflows, and campus academic resources."
+      ],
+      "file": "curriculum/Semester_1/UES104_Boot_Camp.md"
+    },
+    {
+      "code": "UCB009",
+      "name": "Chemistry",
+      "semester": 2,
+      "category": "BSC",
+      "ltp": "3-0-2",
+      "credits": 4.0,
+      "contact_hours": 5,
+      "clos": [
+        "CLO1: Recognize principles and applications of atomic and molecular spectroscopy.",
+        "CLO2: Explain the concepts of conductometric titrations, modern batteries and corrosion.",
+        "CLO3: Apply and execute water quality parameter and treatment methods.",
+        "CLO4: Discuss the concept of alternative fuels, application of polymers and SMILES.",
+        "CLO5: Execute laboratory techniques like pH metry, potentiometry, spectrophotometry, conductometry and volumetry."
+      ],
+      "file": "curriculum/Semester_2/UCB009_Chemistry.md"
+    },
+    {
+      "code": "UES103",
+      "name": "Programming for Problem Solving",
+      "semester": 2,
+      "category": "ESC",
+      "ltp": "3-0-2",
+      "credits": 4.0,
+      "contact_hours": 5,
+      "clos": [
+        "CLO1: Comprehend and analyze the concepts of number system, memory, compilation and debugging of the programs in C language.",
+        "CLO2: Analyze the control & iterative statements to solve problems with C language source codes.",
+        "CLO3: Design and create programs for problem solving involving arrays, strings and pointers.",
+        "CLO4: Evaluate and analyze programming concepts based on user-defined data types and file handling using C language."
+      ],
+      "file": "curriculum/Semester_2/UES103_Programming_for_Problem_Solving.md"
+    },
+    {
+      "code": "UES013",
+      "name": "Electrical & Electronics Engineering",
+      "semester": 2,
+      "category": "ESC",
+      "ltp": "3-1-2",
+      "credits": 4.5,
+      "contact_hours": 6,
+      "clos": [
+        "CLO1: Apply various networks laws and theorems to solve dc circuits.",
+        "CLO2: Compute different ac quantities with phasor representation.",
+        "CLO3: Comprehend the operation in magnetic circuits, single phase transformer.",
+        "CLO4: Recognize and apply number systems and simplification of Boolean expressions using Boolean algebra and K-Map.",
+        "CLO5: Solve and implement logical functions using logic gates, decoders, and multiplexers.",
+        "CLO6: Discuss and explain the working of Flip-Flops, diode, transistor and operational amplifier, their configurations and applications."
+      ],
+      "file": "curriculum/Semester_2/UES013_Electrical_and_Electronics_Engineering.md"
+    },
+    {
+      "code": "UEN008",
+      "name": "Energy and Environment",
+      "semester": 2,
+      "category": "BSC",
+      "ltp": "2-0-0",
+      "credits": 2.0,
+      "contact_hours": 2,
+      "clos": [
+        "CLO1: Comprehend the interdisciplinary context of environmental issues with reference to sustainability.",
+        "CLO2: Assess the impact of anthropogenic activities on the various elements of environment and apply suitable techniques to mitigate their impact.",
+        "CLO3: Demonstrate the application of technology in real time assessment and control of pollutants.",
+        "CLO4: Correlate environmental concerns with conventional energy sources and assess the uses and limitations of non-conventional energy technologies."
+      ],
+      "file": "curriculum/Semester_2/UEN008_Energy_and_Environment.md"
+    },
+    {
+      "code": "UMA023",
+      "name": "Differential Equations and Linear Algebra",
+      "semester": 2,
+      "category": "BSC",
+      "ltp": "3-1-0",
+      "credits": 3.5,
+      "contact_hours": 4,
+      "clos": [
+        "CLO1: Solve differential equations of first and 2nd order and basic application problems described by these equations.",
+        "CLO2: Determine Laplace transforms and inverse Laplace transforms for various functions and solve initial and boundary value problems.",
+        "CLO3: Determine Fourier series expansions of periodic functions and solve heat and wave equations.",
+        "CLO4: Solve systems of linear equations using elementary row operations, compute bases/orthonormal bases, express linear transformation in matrix terms and find eigenvalues and eigenvectors."
+      ],
+      "file": "curriculum/Semester_2/UMA023_Differential_Equations_and_Linear_Algebra.md"
+    },
+    {
+      "code": "UNC401",
+      "name": "Data Structures",
+      "semester": 3,
+      "category": "PCC",
+      "ltp": "3-0-2",
+      "credits": 4.0,
+      "contact_hours": 5,
+      "clos": [
+        "CLO1: Implement basic data structures and solve problems using fundamental algorithms.",
+        "CLO2: Implement various searching and sorting techniques.",
+        "CLO3: Analyze the complexity of algorithms to provide justification for selection and implementation.",
+        "CLO4: Apply appropriate data structure and algorithmic technique to solve real-world problems."
+      ],
+      "file": "curriculum/Semester_3/UNC401_Data_Structures.md"
+    },
+    {
+      "code": "UNC305",
+      "name": "Discrete Mathematics",
+      "semester": 3,
+      "category": "BSC",
+      "ltp": "3-1-0",
+      "credits": 3.5,
+      "contact_hours": 4,
+      "clos": [
+        "CLO1: Apply Knowledge of mathematics in truth tables and the rules of propositional & predicate calculus.",
+        "CLO2: Apply the logical and analytical structure of proofs and work symbolically with connectives and quantifiers to produce logically valid arguments.",
+        "CLO3: Evaluate elementary mathematical arguments and identify fallacious reasoning.",
+        "CLO4: Analyze real-world problems using graph theory."
+      ],
+      "file": "curriculum/Semester_3/UNC305_Discrete_Mathematics.md"
+    },
+    {
+      "code": "UNC302",
+      "name": "Object Oriented Programming",
+      "semester": 3,
+      "category": "PCC",
+      "ltp": "3-0-2",
+      "credits": 4.0,
+      "contact_hours": 5,
+      "clos": [
+        "CLO1: Explain OOP principles, compare with procedural programming, and explore classes, objects, and methods.",
+        "CLO2: Implement data abstraction using classes and constructors, and achieve polymorphism through function and operator overloading.",
+        "CLO3: Apply inheritance and polymorphism concepts to enhance code reusability.",
+        "CLO4: Analyze I/O file stream, templates and exception handling for robust programming."
+      ],
+      "file": "curriculum/Semester_3/UNC302_Object_Oriented_Programming.md"
+    },
+    {
+      "code": "UNC501",
+      "name": "Operating Systems",
+      "semester": 3,
+      "category": "PCC",
+      "ltp": "3-0-2",
+      "credits": 4.0,
+      "contact_hours": 5,
+      "clos": [
+        "CLO1: Explain the basics of an operating system viz. system programs, system calls, user mode and kernel mode.",
+        "CLO2: Select a particular CPU scheduling algorithm for specific situation, and analyze the environment leading to deadlock and its rectification.",
+        "CLO3: Comprehend concepts related to concurrency, synchronization, and race conditions.",
+        "CLO4: Explicate memory management techniques viz. caching, paging, segmentation, virtual memory, and thrashing.",
+        "CLO5: Understand concepts related to file systems, disk-scheduling, and file storage structures."
+      ],
+      "file": "curriculum/Semester_3/UNC501_Operating_Systems.md"
+    },
+    {
+      "code": "UEC304",
+      "name": "Electronics Devices and Circuits",
+      "semester": 3,
+      "category": "PCC",
+      "ltp": "3-1-2",
+      "credits": 4.5,
+      "contact_hours": 6,
+      "clos": [
+        "CLO1: Understand the working of PN junction diode and MOS transistor operation.",
+        "CLO2: Analyze static and dynamic characteristics of Resistive load Inverter and CMOS inverter.",
+        "CLO3: Implement various CMOS logic circuits and transmission gates.",
+        "CLO4: Illustrate the fabrication process and design rules for NMOS and CMOS circuits."
+      ],
+      "file": "curriculum/Semester_3/UEC304_Electronics_Devices_and_Circuits.md"
+    },
+    {
+      "code": "UCS321",
+      "name": "AI for Engineers",
+      "semester": 3,
+      "category": "PCC",
+      "ltp": "2-0-2",
+      "credits": 3.0,
+      "contact_hours": 4,
+      "clos": [
+        "CLO1: Understand foundational artificial intelligence concepts, problem formulation, and search strategies.",
+        "CLO2: Apply knowledge representation, logical reasoning, and probabilistic inference to engineering problems.",
+        "CLO3: Implement supervised and unsupervised machine learning models using contemporary AI libraries.",
+        "CLO4: Evaluate AI solutions on real-world engineering datasets considering performance and ethical dimensions."
+      ],
+      "file": "curriculum/Semester_3/UCS321_AI_for_Engineers.md"
+    },
+    {
+      "code": "UTD003",
+      "name": "Aptitude Skills Building",
+      "semester": 3,
+      "category": "HSS",
+      "ltp": "2-0-0",
+      "credits": 2.0,
+      "contact_hours": 2,
+      "clos": [
+        "CLO1: Ability to identify and provide solutions for complex problems and apply the basics of mathematics.",
+        "CLO2: Able to analyze and interpret data from various sources to identify trends and make data-driven comparisons.",
+        "CLO3: Able to evaluate logical reasoning scenarios to identify patterns, solve sequences, and make accurate inferences.",
+        "CLO4: Able to improve communication skills, including correcting errors, refining structure, and enhancing verbal proficiency.",
+        "CLO5: Able to analyze various types of information to identify key points, infer meaning, and understand underlying tones and purposes."
+      ],
+      "file": "curriculum/Semester_3/UTD003_Aptitude_Skills_Building.md"
+    },
+    {
+      "code": "UEC716",
+      "name": "Database Management Systems",
+      "semester": 4,
+      "category": "PCC",
+      "ltp": "3-0-2",
+      "credits": 4.0,
+      "contact_hours": 5,
+      "clos": [
+        "CLO1: Analyze Information Systems as socio-technical systems, its need and advantages as compared to traditional file-based systems.",
+        "CLO2: Analyze and design database using E-R data model by identifying entities, attributes and relationships.",
+        "CLO3: Apply and create Relational Database Design process with Normalization techniques.",
+        "CLO4: Comprehend concepts of transaction management, concurrency control and recovery management.",
+        "CLO5: Demonstrate use of SQL and PL/SQL to implement database applications."
+      ],
+      "file": "curriculum/Semester_4/UEC716_Database_Management_Systems.md"
+    },
+    {
+      "code": "UNC311",
+      "name": "Probability and Statistics",
+      "semester": 4,
+      "category": "BSC",
+      "ltp": "3-1-0",
+      "credits": 3.5,
+      "contact_hours": 4,
+      "clos": [
+        "CLO1: Analyze and compute statistical measures to describe and interpret data characteristics and distribution behaviour across applications.",
+        "CLO2: Apply probability and random variable concepts to model and analyze discrete and continuous probability distributions.",
+        "CLO3: Analyze random processes and noise models by evaluating stationarity, ergodicity, correlation functions, and power spectral density.",
+        "CLO4: Evaluate estimation and hypothesis testing methods by assessing bias, variance, mean square error (MSE), confidence intervals, and error probabilities for engineering problems.",
+        "CLO5: Analyze information-theoretic models and coding schemes by computing entropy, mutual information, and channel capacity, and applying source coding theorems to improve transmission efficiency and reliability."
+      ],
+      "file": "curriculum/Semester_4/UNC311_Probability_and_Statistics.md"
+    },
+    {
+      "code": "UNC402",
+      "name": "Design and Analysis of Algorithms",
+      "semester": 4,
+      "category": "PCC",
+      "ltp": "3-0-2",
+      "credits": 4.0,
+      "contact_hours": 5,
+      "clos": [
+        "CLO1: Analyse the complexity of algorithms and implement it in a specific scenario.",
+        "CLO2: Apply common algorithmic techniques such as greedy, dynamic programming etc. to standard computational problems.",
+        "CLO3: Design solutions by using appropriate data structures or applying algorithms such as randomized, approximation and graph.",
+        "CLO4: Develop efficient algorithms for various computational challenging problems solving in computing."
+      ],
+      "file": "curriculum/Semester_4/UNC402_Design_and_Analysis_of_Algorithms.md"
+    },
+    {
+      "code": "UEC612",
+      "name": "Digital System Design",
+      "semester": 4,
+      "category": "PCC",
+      "ltp": "3-1-2",
+      "credits": 4.5,
+      "contact_hours": 6,
+      "clos": [
+        "CLO1: Apply various minimization methods to simplify boolean functions and construct circuits using logic gates.",
+        "CLO2: Design combinational circuits and iterative networks using basic modules.",
+        "CLO3: Design and analyze sequential circuits and finite state machines.",
+        "CLO4: Evaluate performance of integrated circuits across logic families.",
+        "CLO5: Design, simulate and synthesize digital systems using HDL (VHDL/Verilog)."
+      ],
+      "file": "curriculum/Semester_4/UEC612_Digital_System_Design.md"
+    },
+    {
+      "code": "UNC403",
+      "name": "Machine Learning",
+      "semester": 4,
+      "category": "PCC",
+      "ltp": "3-0-2",
+      "credits": 4.0,
+      "contact_hours": 5,
+      "clos": [
+        "CLO1: Comprehend fundamental concepts and terminology associated with machine learning and artificial intelligence.",
+        "CLO2: Apply various regression and classification techniques and evaluate models.",
+        "CLO3: Implement and apply machine learning algorithms for supervised, unsupervised, and reinforcement learning tasks.",
+        "CLO4: Apply and evaluate neural network models using gradient-based learning and model selection techniques."
+      ],
+      "file": "curriculum/Semester_4/UNC403_Machine_Learning.md"
+    },
+    {
+      "code": "UTA024",
+      "name": "Engineering Design Project (Buggy)",
+      "semester": 4,
+      "category": "ESC",
+      "ltp": "1-0-2",
+      "credits": 2.0,
+      "contact_hours": 3,
+      "clos": [
+        "CLO1: Recognize issues to be addressed in combined hardware and software system design.",
+        "CLO2: Draw schematic diagrams of electronic circuits and design PCB layouts using CAD tools.",
+        "CLO3: Apply hands-on experience in electronic circuit implementation and testing.",
+        "CLO4: Demonstrate programming skills by integrating coding, optimization and debugging for different robotic challenges.",
+        "CLO5: Develop group working, including task sub-division and integration of individual contributions from the team."
+      ],
+      "file": "curriculum/Semester_4/UTA024_Engineering_Design_Project_(Buggy).md"
+    },
+    {
+      "code": "UHU052",
+      "name": "The Evolutionary Basis of Human Behavior for Engineers",
+      "semester": 4,
+      "category": "HSS",
+      "ltp": "1-0-0",
+      "credits": 1.0,
+      "contact_hours": 1,
+      "clos": [
+        "CLO1: Understand evolutionary principles influencing human behavior and cognition.",
+        "CLO2: Analyze social dynamics, cooperation, and group decision-making in technical teams.",
+        "CLO3: Apply behavioral insights to human-centered engineering design and workplace ethics."
+      ],
+      "file": "curriculum/Semester_4/UHU052_The_Evolutionary_Basis_of_Human_Behavior_for_Engineers.md"
+    },
+    {
+      "code": "UCS421",
+      "name": "Ethics and Risk Mitigation in AI",
+      "semester": 4,
+      "category": "ESC",
+      "ltp": "3-0-0",
+      "credits": 3.0,
+      "contact_hours": 3,
+      "clos": [
+        "CLO1: Identify ethical challenges, algorithmic biases, and societal impacts in AI deployments.",
+        "CLO2: Apply regulatory frameworks, governance models, and data privacy principles to AI systems.",
+        "CLO3: Formulate risk mitigation strategies, fairness audits, and accountability mechanisms for AI engineering."
+      ],
+      "file": "curriculum/Semester_4/UCS421_Ethics_and_Risk_Mitigation_in_AI.md"
+    },
+    {
+      "code": "UNC303",
+      "name": "Computer and Communication Networks",
+      "semester": 5,
+      "category": "PCC",
+      "ltp": "3-0-0",
+      "credits": 3.0,
+      "contact_hours": 3,
+      "clos": [
+        "CLO1: Understand the layered architecture of Internet's reference models: OSI & TCP/IP and basis of physical layer and media.",
+        "CLO2: Analyze design issues, framing, error detection and correction, channel allocation techniques and link layer protocols.",
+        "CLO3: Evaluate network layer, internetworking, IP and IP addressing mechanisms.",
+        "CLO4: Apply various routing algorithms, elements of transport protocols, congestion control, and QOS in networks.",
+        "CLO5: Understand various communication applications like email, web browser, and familiarization with cryptography and network security."
+      ],
+      "file": "curriculum/Semester_5/UNC303_Computer_and_Communication_Networks.md"
+    },
+    {
+      "code": "UEC610",
+      "name": "Computer Architecture",
+      "semester": 5,
+      "category": "PCC",
+      "ltp": "3-1-0",
+      "credits": 3.5,
+      "contact_hours": 4,
+      "clos": [
+        "CLO1: Apply Amdahl's law and Processor Performance Equation to evaluate system performance.",
+        "CLO2: Characterize processor instruction set architecture and addressing modes.",
+        "CLO3: Identify concepts of parallelism, pipelining, and hazard removal.",
+        "CLO4: Demonstrate GPU-based system acceleration using CUDA programming.",
+        "CLO5: Investigate Memory Hierarchy design, memory addressing, and address translation."
+      ],
+      "file": "curriculum/Semester_5/UEC610_Computer_Architecture.md"
+    },
+    {
+      "code": "UEC504",
+      "name": "Signal System and Processing",
+      "semester": 5,
+      "category": "PCC",
+      "ltp": "3-1-2",
+      "credits": 4.5,
+      "contact_hours": 6,
+      "clos": [
+        "CLO1: Analyze different properties of continuous and discrete-time signals and systems.",
+        "CLO2: Represent signals and systems in frequency domain using Fourier tools.",
+        "CLO3: Apply Z-transform to analyze discrete-time signals and systems.",
+        "CLO4: Design and implement digital discrete-time filters (FIR/IIR)."
+      ],
+      "file": "curriculum/Semester_5/UEC504_Signal_System_and_Processing.md"
+    },
+    {
+      "code": "UNC514",
+      "name": "Data Science Fundamentals (Elective-I)",
+      "semester": 5,
+      "category": "PEC",
+      "ltp": "2-0-2",
+      "credits": 3.0,
+      "contact_hours": 4,
+      "clos": [
+        "CLO1: Understand data science pipelines and methods for acquiring structured and unstructured data.",
+        "CLO2: Perform exploratory data analysis and statistical visualization.",
+        "CLO3: Build and evaluate predictive regression and classification models.",
+        "CLO4: Communicate data insights and deploy scalable data analysis workflows."
+      ],
+      "file": "curriculum/Semester_5/UNC514_Data_Science_Fundamentals_(Elective-I).md"
+    },
+    {
+      "code": "UEC523",
+      "name": "Applications of AI for Electronic Systems",
+      "semester": 5,
+      "category": "PCC",
+      "ltp": "2-0-2",
+      "credits": 3.0,
+      "contact_hours": 4,
+      "clos": [
+        "CLO1: Understand machine learning techniques tailored for electronic sensor data.",
+        "CLO2: Implement TinyML and embedded AI models on microcontrollers and edge hardware.",
+        "CLO3: Optimize neural network models for power, latency, and memory-constrained electronic systems.",
+        "CLO4: Apply AI algorithms to fault detection, circuit optimization, and signal classification."
+      ],
+      "file": "curriculum/Semester_5/UEC523_Applications_of_AI_for_Electronic_Systems.md"
+    },
+    {
+      "code": "UEC522",
+      "name": "Practices in Electronics Fabrication",
+      "semester": 5,
+      "category": "ESC",
+      "ltp": "1-0-2",
+      "credits": 2.0,
+      "contact_hours": 3,
+      "clos": [
+        "CLO1: Explain fundamentals of integrated circuits, semiconductor materials, crystal growth, and wafer preparation.",
+        "CLO2: Apply principles of oxidation, diffusion, ion implantation, lithography, etching, and metallization to describe planar IC fabrication.",
+        "CLO3: Analyse and apply various IC Design rules.",
+        "CLO4: Understand Packaging technologies by considering electrical, thermal, and mechanical performance requirements."
+      ],
+      "file": "curriculum/Semester_5/UEC522_Practices_in_Electronics_Fabrication.md"
+    },
+    {
+      "code": "UTA025",
+      "name": "Innovation & Entrepreneurship",
+      "semester": 5,
+      "category": "HSS",
+      "ltp": "1-0-2",
+      "credits": 3.0,
+      "contact_hours": 3,
+      "clos": [
+        "CLO1: Explain fundamentals behind entrepreneurial personality and intentions.",
+        "CLO2: Discover, evaluate, and validate business opportunities.",
+        "CLO3: Identify stakeholders and develop strong value propositions.",
+        "CLO4: Describe business models and construct a functional Business Model Canvas.",
+        "CLO5: Analyse and select suitable finance and revenue models for startup ventures."
+      ],
+      "file": "curriculum/Semester_5/UTA025_Innovation_and_Entrepreneurship.md"
+    },
+    {
+      "code": "UEC614",
+      "name": "Digital Communication",
+      "semester": 6,
+      "category": "PCC",
+      "ltp": "3-1-2",
+      "credits": 4.5,
+      "contact_hours": 6,
+      "clos": [
+        "CLO1: Explain concepts of AM, FM, and digital pulse modulation.",
+        "CLO2: Analyze pulse modulation techniques and baseband waveform shaping.",
+        "CLO3: Perform statistical analysis of modulated waveforms from estimation and detection perspective.",
+        "CLO4: Evaluate performance of digital modulation techniques operating over AWGN channels.",
+        "CLO5: Analyze and apply error control coding in digital communication systems."
+      ],
+      "file": "curriculum/Semester_6/UEC614_Digital_Communication.md"
+    },
+    {
+      "code": "UEC615",
+      "name": "Embedded Systems and IoT",
+      "semester": 6,
+      "category": "PCC",
+      "ltp": "3-0-2",
+      "credits": 4.0,
+      "contact_hours": 5,
+      "clos": [
+        "CLO1: Understand embedded system models using C++ language.",
+        "CLO2: Understand internal architecture of ARM processor, register structure, and addressing modes.",
+        "CLO3: Design ARM interfacing with memory, I/O devices, and peripherals using C++.",
+        "CLO4: Analyze design aspects of hardware and software components of IoT including protocols.",
+        "CLO5: Design interfaces for I/O devices, sensors, and communication modules."
+      ],
+      "file": "curriculum/Semester_6/UEC615_Embedded_Systems_and_IoT.md"
+    },
+    {
+      "code": "UNC602",
+      "name": "Theory of Computation",
+      "semester": 6,
+      "category": "PCC",
+      "ltp": "3-1-0",
+      "credits": 3.5,
+      "contact_hours": 4,
+      "clos": [
+        "CLO1: Comprehend regular languages and finite automata and establish equivalence between regular expressions, NFAs, and DFAs.",
+        "CLO2: Disambiguate context-free grammars and understand concepts of context-free languages and pushdown automata.",
+        "CLO3: Analyse and design efficient Turing Machines.",
+        "CLO4: Distinguish different computing languages and classify their respective computational complexity types."
+      ],
+      "file": "curriculum/Semester_6/UNC602_Theory_of_Computation.md"
+    },
+    {
+      "code": "UEC633",
+      "name": "Network Security and Cryptography (Elective-II)",
+      "semester": 6,
+      "category": "PEC",
+      "ltp": "2-0-2",
+      "credits": 3.0,
+      "contact_hours": 4,
+      "clos": [
+        "CLO1: Understand cryptographic principles and classical ciphers.",
+        "CLO2: Apply symmetric and asymmetric encryption algorithms to secure communications.",
+        "CLO3: Implement hashing, digital signatures, and authentication protocols.",
+        "CLO4: Analyze network vulnerabilities and design defense-in-depth security strategies."
+      ],
+      "file": "curriculum/Semester_6/UEC633_Network_Security_and_Cryptography_(Elective-II).md"
+    },
+    {
+      "code": "UEC635",
+      "name": "Blockchain Technology (Elective-III)",
+      "semester": 6,
+      "category": "PEC",
+      "ltp": "2-0-2",
+      "credits": 3.0,
+      "contact_hours": 4,
+      "clos": [
+        "CLO1: Explain concepts of distributed ledgers and blockchain architectures.",
+        "CLO2: Analyze consensus algorithms including Proof of Work and Proof of Stake.",
+        "CLO3: Develop and deploy smart contracts on modern blockchain platforms.",
+        "CLO4: Evaluate enterprise blockchain use-cases in supply chain, identity, and finance."
+      ],
+      "file": "curriculum/Semester_6/UEC635_Blockchain_Technology_(Elective-III).md"
+    },
+    {
+      "code": "UNC603",
+      "name": "Programming Practices Lab - I",
+      "semester": 6,
+      "category": "PCC",
+      "ltp": "0-0-4",
+      "credits": 2.0,
+      "contact_hours": 4,
+      "clos": [
+        "CLO1: Apply programming skills in Java/Python to solve computational problems.",
+        "CLO2: Implement solutions using appropriate data structures and algorithmic techniques.",
+        "CLO3: Develop logical reasoning and structured problem-solving ability through coding practice.",
+        "CLO4: Perform timed programming tasks with attention to correctness and efficiency."
+      ],
+      "file": "curriculum/Semester_6/UNC603_Programming_Practices_Lab_-_I.md"
+    },
+    {
+      "code": "UEC797_A",
+      "name": "Capstone Project (Starts - Part I)",
+      "semester": 6,
+      "category": "PRJ",
+      "ltp": "1-0-2",
+      "credits": 1.0,
+      "contact_hours": 2,
+      "clos": [
+        "CLO1: Identify a technological need in society or industry and formulate it into a specific engineering problem.",
+        "CLO2: Design and develop practical hardware, software, or integrated solutions using interdisciplinary engineering knowledge.",
+        "CLO3: Recognize the importance of engineering solutions that consider safety, economic, environmental, and societal impacts.",
+        "CLO4: Demonstrate effective teamwork by contributing meaningfully to group-based project tasks in a multidisciplinary environment.",
+        "CLO5: Communicate technical ideas and project outcomes clearly and professionally with diverse audiences.",
+        "CLO6: Assess engineering solutions with respect to ethical responsibilities adhering to professional canons."
+      ],
+      "file": "curriculum/Semester_6/UEC797_A_Capstone_Project_(Starts_-_Part_I).md"
+    },
+    {
+      "code": "UHU005",
+      "name": "Humanities for Engineers",
+      "semester": 7,
+      "category": "HSS",
+      "ltp": "2-0-2",
+      "credits": 3.0,
+      "contact_hours": 4,
+      "clos": [
+        "CLO1: Improve understanding of human behavior with the help of interplay of professional, psychological and economic activities.",
+        "CLO2: Apply knowledge of basic principles of psychology, economics and ethics for the solution of engineering problems.",
+        "CLO3: Explain the impact of contemporary issues in psychology, economics and ethical principles on engineering."
+      ],
+      "file": "curriculum/Semester_7/UHU005_Humanities_for_Engineers.md"
+    },
+    {
+      "code": "UEC823",
+      "name": "Soft Computing (Elective-IV)",
+      "semester": 7,
+      "category": "PEC",
+      "ltp": "2-0-2",
+      "credits": 3.0,
+      "contact_hours": 4,
+      "clos": [
+        "CLO1: Understand theoretical foundations of fuzzy logic, neural networks, and evolutionary algorithms.",
+        "CLO2: Design and implement fuzzy inference systems for engineering control problems.",
+        "CLO3: Apply genetic algorithms to solve complex non-linear optimization tasks.",
+        "CLO4: Develop hybrid intelligent systems combining neural and fuzzy approaches."
+      ],
+      "file": "curriculum/Semester_7/UEC823_Soft_Computing_(Elective-IV).md"
+    },
+    {
+      "code": "UCS002",
+      "name": "Introduction to Cyber Security (Generic Elective)",
+      "semester": 7,
+      "category": "OEC",
+      "ltp": "2-0-0",
+      "credits": 2.0,
+      "contact_hours": 2,
+      "clos": [
+        "CLO1: Understand fundamental concepts of cyberspace, security threats, and vulnerabilities.",
+        "CLO2: Apply security practices to safeguard personal and organizational digital assets.",
+        "CLO3: Recognize legal and ethical implications under national and international cyber laws."
+      ],
+      "file": "curriculum/Semester_7/UCS002_Introduction_to_Cyber_Security_(Generic_Elective).md"
+    },
+    {
+      "code": "UVD701",
+      "name": "CAD for VLSI (Elective-V)",
+      "semester": 7,
+      "category": "PEC",
+      "ltp": "2-0-2",
+      "credits": 3.0,
+      "contact_hours": 4,
+      "clos": [
+        "CLO1: Explain electronic design automation (EDA) flows for VLSI circuits.",
+        "CLO2: Implement partitioning, floorplanning, and placement algorithms.",
+        "CLO3: Analyze routing algorithms and timing optimization techniques.",
+        "CLO4: Use industry CAD tools to synthesize, simulate, and verify integrated circuits."
+      ],
+      "file": "curriculum/Semester_7/UVD701_CAD_for_VLSI_(Elective-V).md"
+    },
+    {
+      "code": "UNC703",
+      "name": "Programming Practices Lab - II",
+      "semester": 7,
+      "category": "PCC",
+      "ltp": "0-0-2",
+      "credits": 1.0,
+      "contact_hours": 2,
+      "clos": [
+        "CLO1: Apply advanced programming techniques in Java/Python to complex algorithmic problems.",
+        "CLO2: Implement tree and graph algorithms with optimal time and space complexity.",
+        "CLO3: Formulate strategies for complex competitive programming and technical interviews.",
+        "CLO4: Perform timed problem solving demonstrating code robustness and edge-case handling."
+      ],
+      "file": "curriculum/Semester_7/UNC703_Programming_Practices_Lab_-_II.md"
+    },
+    {
+      "code": "UEC797_B",
+      "name": "Capstone Project (End - Part II)",
+      "semester": 7,
+      "category": "PRJ",
+      "ltp": "0-0-2",
+      "credits": 8.0,
+      "contact_hours": 2,
+      "clos": [
+        "CLO1: Formulate and implement end-to-end engineering solutions addressing real-world problems.",
+        "CLO2: Validate engineered prototypes through rigorous experimental and simulation benchmarks.",
+        "CLO3: Evaluate societal, safety, and environmental impacts of the engineered solution.",
+        "CLO4: Demonstrate effective team leadership and collaborative workflow management.",
+        "CLO5: Defend project deliverables through professional oral presentations and technical reports.",
+        "CLO6: Uphold professional ethics and intellectual property standards in engineering practice."
+      ],
+      "file": "curriculum/Semester_7/UEC797_B_Capstone_Project_(End_-_Part_II).md"
+    },
+    {
+      "code": "UNC801",
+      "name": "Information Retrieval",
+      "semester": 8,
+      "category": "PEC",
+      "ltp": "3-0-0",
+      "credits": 3.0,
+      "contact_hours": 3,
+      "clos": [
+        "CLO1: Comprehend fundamental concepts and terminology associated with Information retrieval.",
+        "CLO2: Understand and evaluate various types of indices and efficient storage of indices.",
+        "CLO3: Evaluate scoring strategies and ranking models.",
+        "CLO4: Analyze and implement advanced indexing, link analysis, and duplicate detection techniques for scalable web search.",
+        "CLO5: Utilize machine learning methods for intelligent information retrieval."
+      ],
+      "file": "curriculum/Semester_8/UNC801_Information_Retrieval.md"
+    },
+    {
+      "code": "UNC802",
+      "name": "Prompt Engineering",
+      "semester": 8,
+      "category": "PEC",
+      "ltp": "2-0-2",
+      "credits": 3.0,
+      "contact_hours": 4,
+      "clos": [
+        "CLO1: Understand basic concepts of prompt engineering and its role in Generative AI systems.",
+        "CLO2: Write clear and effective prompts using common prompting techniques.",
+        "CLO3: Apply prompt design methods for structured and multi-step engineering tasks.",
+        "CLO4: Evaluate AI-generated responses and demonstrate responsible and ethical use of Generative AI tools."
+      ],
+      "file": "curriculum/Semester_8/UNC802_Prompt_Engineering.md"
+    },
+    {
+      "code": "UNC891",
+      "name": "Project / Internship Semester",
+      "semester": 8,
+      "category": "PRJ",
+      "ltp": "0-0-15",
+      "credits": 9.0,
+      "contact_hours": 15,
+      "clos": [
+        "CLO1: Formulate and execute industry-relevant technical solutions applying electronics and computer engineering principles.",
+        "CLO2: Implement, test, and document complex engineering artifacts adhering to professional engineering standards.",
+        "CLO3: Demonstrate effective project management, oral defense, and professional ethics in workplace settings."
+      ],
+      "file": "curriculum/Semester_8/UNC891_Project___Internship_Semester.md"
+    }
+  ]
+}
