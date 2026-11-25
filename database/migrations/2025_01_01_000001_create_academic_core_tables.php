@@ -61,7 +61,7 @@ return new class extends Migration
             $table->integer('ug_3rd_year')->default(0); // 3rd year students (UGT3)
             $table->integer('ug_4th_year')->default(0); // 4th year students (UGT4)
             $table->integer('lateral_entry')->default(0);
-            $table->integer('total_students')->virtualAs('ug_1st_year + ug_2nd_year + ug_3rd_year + ug_4th_year');
+            $table->integer('total_students')->default(0);
             $table->timestamps();
         });
     }

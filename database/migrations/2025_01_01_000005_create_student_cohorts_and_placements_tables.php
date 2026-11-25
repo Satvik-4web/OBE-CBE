@@ -18,7 +18,7 @@ return new class extends Migration
             $table->integer('sanctioned_intake')->default(60);
             $table->integer('admitted_first_year')->default(60);
             $table->integer('lateral_admitted_second_year')->default(6);
-            $table->integer('total_admitted')->virtualAs('admitted_first_year + lateral_admitted_second_year');
+            $table->integer('total_admitted')->default(0);
             $table->integer('graduated_without_backlog')->default(45);
             $table->integer('graduated_in_stipulated_time')->default(55);
             $table->timestamps();
