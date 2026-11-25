@@ -198,13 +198,15 @@ class CriterionScoreService
             )
         );
 
+        $c1Summary = 'Vision: At TIET, our vision rests on two pillars: (1) A deeply meaningful experience for all stakeholders that shapes lives with wisdom, purpose, and compassion; and (2) Socially impactful research that advances knowledge while solving real challenges of industry, society, and humanity. Together, they embody our commitment to seeking excellence for all. | Mission: TIET exists to educate and empower students while advancing knowledge through research, so that we serve our society with wisdom, compassion, and a commitment to seek excellence.';
+
         $criteria = [
             $this->criterion(
                 1,
                 'Vision, Mission and Program Educational Objectives',
                 60.0,
                 $c1Marks,
-                'Vision, Mission and PEOs'
+                $c1Summary
             ),
 
             $this->criterion(

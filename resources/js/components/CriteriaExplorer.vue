@@ -150,6 +150,58 @@
             </p>
           </div>
 
+          <!-- Criterion 1 Vision, Mission & PEOs Snapshot -->
+          <div
+            v-if="c.number === 1"
+            class="p-4 rounded-xl bg-slate-900 border border-indigo-500/30 text-xs space-y-3"
+          >
+            <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+              <span class="font-bold text-indigo-300 flex items-center gap-2 text-sm">
+                <span>🏛️</span> Institutional Vision & Mission (TIET)
+              </span>
+              <span class="px-2 py-0.5 rounded bg-emerald-500/10 text-emerald-400 font-semibold text-[10px] border border-emerald-500/20">
+                Criterion 1.1 Verified
+              </span>
+            </div>
+
+            <!-- Vision Block -->
+            <div class="p-3.5 rounded-lg bg-slate-950 border border-slate-800/80 space-y-2">
+              <div class="flex items-center gap-1.5 text-amber-400 font-bold text-xs uppercase tracking-wide">
+                <span>👁️</span> Vision
+              </div>
+              <p class="text-slate-200 text-xs font-medium leading-relaxed">
+                At TIET, our vision rests on two pillars:
+              </p>
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-2.5 pt-1">
+                <div class="p-3 rounded-lg bg-slate-900/90 border border-indigo-500/20 space-y-1">
+                  <div class="text-[10px] font-bold text-indigo-400 uppercase tracking-wider">Pillar 1 • Stakeholder Experience</div>
+                  <p class="text-[11px] text-slate-300 leading-normal">
+                    A deeply meaningful experience for all stakeholders that shapes lives with wisdom, purpose, and compassion.
+                  </p>
+                </div>
+                <div class="p-3 rounded-lg bg-slate-900/90 border border-indigo-500/20 space-y-1">
+                  <div class="text-[10px] font-bold text-indigo-400 uppercase tracking-wider">Pillar 2 • Socially Impactful Research</div>
+                  <p class="text-[11px] text-slate-300 leading-normal">
+                    Socially impactful research that advances knowledge while solving real challenges of industry, society, and humanity.
+                  </p>
+                </div>
+              </div>
+              <p class="text-[11px] text-slate-400 italic pt-1">
+                Together, they embody our commitment to seeking excellence for all.
+              </p>
+            </div>
+
+            <!-- Mission Block -->
+            <div class="p-3.5 rounded-lg bg-slate-950 border border-slate-800/80 space-y-2">
+              <div class="flex items-center gap-1.5 text-emerald-400 font-bold text-xs uppercase tracking-wide">
+                <span>🎯</span> Mission
+              </div>
+              <p class="text-slate-200 text-xs font-medium leading-relaxed">
+                TIET exists to educate and empower students while advancing knowledge through research, so that we serve our society with wisdom, compassion, and a commitment to seek excellence.
+              </p>
+            </div>
+          </div>
+
           <!-- Criterion 2 Live Intake Snapshot -->
           <div
             v-if="c.number === 2"
