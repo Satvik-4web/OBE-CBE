@@ -32,6 +32,8 @@
     "APP_NAME": "NBA SAR & OBE Platform",
     "APP_ENV": "production",
     "APP_DEBUG": "false",
+    "APP_URL": "https://obe-cbe.vercel.app",
+    "ASSET_URL": "https://obe-cbe.vercel.app",
     "APP_KEY": "base64:0rN4EkR0c4Jt3AvXGara5wG+TlrWF8YTgT5tn7j8Nko=",
     "APP_CONFIG_CACHE": "/tmp/bootstrap/cache/config.php",
     "APP_EVENTS_CACHE": "/tmp/bootstrap/cache/events.php",
