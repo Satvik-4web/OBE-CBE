@@ -158,6 +158,24 @@ class StaffManagementApiController extends Controller
 
         $user->update($updateData);
 
+        if ($user->facultyProfile) {
+            $fpUpdate = [
+                'name' => $user->name,
+                'email' => $user->email,
+                'mobile' => $user->phone,
+            ];
+            if ($request->filled('highest_degree')) {
+                $fpUpdate['highest_degree'] = $request->input('highest_degree');
+            }
+            if ($request->filled('designation')) {
+                $fpUpdate['present_designation'] = $request->input('designation');
+            }
+            if ($request->filled('teaching_experience_years')) {
+                $fpUpdate['teaching_experience_years'] = (int) $request->input('teaching_experience_years');
+            }
+            $user->facultyProfile->update($fpUpdate);
+        }
+
         SarAuditLog::create([
             'user_name' => 'Super Admin',
             'user_role' => 'Super Admin',

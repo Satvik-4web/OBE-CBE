@@ -187,6 +187,36 @@
             </div>
           </div>
 
+          <!-- Criterion 10 Snapshot -->
+          <div
+            v-if="c.number === 10"
+            class="p-3 rounded-lg bg-slate-900 border border-slate-800 text-xs space-y-2"
+          >
+            <div class="font-semibold text-indigo-300">
+              Criterion 10 Budget & Governance Snapshot:
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2">
+              <div class="p-2 rounded bg-slate-950">
+                <div class="text-slate-400 text-[10px]">
+                  Total 3-Year Expenditure
+                </div>
+                <div class="font-bold text-white">
+                  ₹{{ (sar.live_engines?.budget?.total_spent ?? 0).toLocaleString() }}
+                </div>
+              </div>
+
+              <div class="p-2 rounded bg-slate-950">
+                <div class="text-slate-400 text-[10px]">
+                  Average Budget Utilization
+                </div>
+                <div class="font-bold text-emerald-400">
+                  {{ sar.live_engines?.budget?.overall_utilization ?? 0 }}%
+                </div>
+              </div>
+            </div>
+          </div>
+
           <!-- Evidence Documents Section -->
           <div class="pt-2 border-t border-slate-800/60">
             <div class="flex items-center justify-between mb-3">

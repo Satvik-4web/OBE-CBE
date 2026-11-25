@@ -257,6 +257,8 @@ class NbaSarDatabaseSeeder extends Seeder
             }
         }
 
+        $this->call(Criterion5FacultySeeder::class);
+
         // 6. Program Outcomes (PO1 to PO12)
         $nbaPos = [
             ['code' => 'PO1', 'title' => 'Engineering Knowledge', 'desc' => 'Apply knowledge of mathematics, science, engineering fundamentals, and electronics and computer engineering specialization.'],

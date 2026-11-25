@@ -114,11 +114,12 @@ Route::prefix('v1')->group(function () {
         // Executive Dashboard & Overview
         Route::get('/dashboard', [NbaDashboardApiController::class, 'index']);
 
-        // Criterion 5 Engines: SFR, FQI, Cadre Simulators
+        // Criterion 5 Engines: SFR, FQI, Cadre Simulators & Table 5A
         Route::get('/sfr-summary', [SfrCalculatorApiController::class, 'summary']);
         Route::post('/sfr-simulate', [SfrCalculatorApiController::class, 'simulate']);
         Route::get('/fqi-summary', [FqiCalculatorApiController::class, 'summary']);
         Route::post('/fqi-simulate', [FqiCalculatorApiController::class, 'simulate']);
+        Route::get('/faculty-table-5a', [SfrCalculatorApiController::class, 'getTable5a']);
 
         // Criterion 2 & 3: Curriculum & Articulation Matrix
         Route::get(
