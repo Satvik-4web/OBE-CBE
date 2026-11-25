@@ -36,5 +36,9 @@ if (!file_exists($targetDb) || filesize($targetDb) === 0) {
     }
 }
 
+// Normalize SCRIPT_NAME so Symfony/Laravel does not strip /api prefix from route paths
+$_SERVER['SCRIPT_NAME'] = '/index.php';
+$_SERVER['SCRIPT_FILENAME'] = __DIR__ . '/../public/index.php';
+
 // Forward to Laravel's native public index.php
 require __DIR__ . '/../public/index.php';
