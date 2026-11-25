@@ -181,7 +181,7 @@
             </div>
             <div>
               <label class="font-semibold text-slate-300">Faculty ID / Code</label>
-              <input type="text" v-model="form.faculty_code" placeholder="e.g. FAC-CSE-025"
+              <input type="text" v-model="form.faculty_code" placeholder="e.g. FAC-ENC-025"
                      class="w-full mt-1 bg-slate-950 border border-slate-800 rounded-lg px-3 py-2 text-white focus:border-indigo-500 outline-none" />
             </div>
           </div>
@@ -278,7 +278,7 @@ export default {
         role: 'Faculty',
         department_id: this.departments.length > 0 ? this.departments[0].id : null,
         designation: 'Assistant Professor',
-        faculty_code: 'FAC-CSE-' + Math.floor(100 + Math.random() * 900),
+        faculty_code: 'FAC-ENC-' + Math.floor(100 + Math.random() * 900),
         phone: '',
         highest_degree: 'M.Tech',
         teaching_experience_years: 3,

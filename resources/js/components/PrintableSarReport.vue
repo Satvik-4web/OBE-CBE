@@ -44,7 +44,7 @@
                 </tr>
                 <tr class="border-b border-slate-800">
                   <td class="border-r border-slate-800 py-1 px-2 font-bold bg-slate-50 text-slate-800">Department:</td>
-                  <td class="py-1 px-2 font-medium text-slate-950">{{ sar.program?.department || 'Department of Computer Science and Engineering' }}</td>
+                  <td class="py-1 px-2 font-medium text-slate-950">{{ sar.program?.department || 'Department of Electronics and Computer Engineering' }}</td>
                 </tr>
                 <tr class="border-b border-slate-800">
                   <td class="border-r border-slate-800 py-1 px-2 font-bold bg-slate-50 text-slate-800">Accredited Program:</td>
@@ -186,7 +186,7 @@
                 <div class="h-6"></div>
                 <div>
                   <div class="font-bold border-t border-slate-900 pt-1 text-slate-950">Head of Department (HOD)</div>
-                  <div class="text-slate-600 text-[9px]">Department of Computer Science</div>
+                  <div class="text-slate-600 text-[9px]">Department of Electronics and Computer Engineering</div>
                 </div>
               </div>
               <div class="space-y-10">

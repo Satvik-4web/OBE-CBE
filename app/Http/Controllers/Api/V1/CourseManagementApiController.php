@@ -149,4 +149,61 @@ class CourseManagementApiController extends Controller
             'message' => "Course {$code} deleted.",
         ]);
     }
+
+    /**
+     * Update existing Course Outcome (CO)
+     */
+    public function updateCourseOutcome(Request $request, int $courseId, int $coId): JsonResponse
+    {
+        $co = CourseOutcome::where('course_id', $courseId)->where('id', $coId)->firstOrFail();
+
+        $validated = $request->validate([
+            'co_code' => 'sometimes|required|string|max:20',
+            'description' => 'sometimes|required|string|max:2000',
+            'target_percentage' => 'sometimes|required|numeric|between:0,100',
+            'target_level' => 'sometimes|required|numeric|between:0,3',
+            'bloom_level' => 'sometimes|required|string|in:Remember,Understand,Apply,Analyze,Evaluate,Create',
+        ]);
+
+        $co->update($validated);
+
+        SarAuditLog::create([
+            'user_name' => 'Course Coordinator',
+            'user_role' => 'Faculty',
+            'action' => 'CO_UPDATED',
+            'domain_module' => 'Curriculum',
+            'description' => "Updated outcome {$co->co_code} for course ID {$courseId}.",
+            'ip_address' => $request->ip() ?? '127.0.0.1',
+        ]);
+
+        return response()->json([
+            'success' => true,
+            'message' => "{$co->co_code} updated successfully.",
+            'data' => $co,
+        ]);
+    }
+
+    /**
+     * Delete Course Outcome (CO)
+     */
+    public function deleteCourseOutcome(Request $request, int $courseId, int $coId): JsonResponse
+    {
+        $co = CourseOutcome::where('course_id', $courseId)->where('id', $coId)->firstOrFail();
+        $code = $co->co_code;
+        $co->delete();
+
+        SarAuditLog::create([
+            'user_name' => 'Course Coordinator',
+            'user_role' => 'Faculty',
+            'action' => 'CO_DELETED',
+            'domain_module' => 'Curriculum',
+            'description' => "Deleted outcome {$code} from course ID {$courseId}.",
+            'ip_address' => $request->ip() ?? '127.0.0.1',
+        ]);
+
+        return response()->json([
+            'success' => true,
+            'message' => "Outcome {$code} deleted.",
+        ]);
+    }
 }

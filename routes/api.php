@@ -72,6 +72,8 @@ Route::prefix('v1')->group(function () {
         Route::get('/', [CourseManagementApiController::class, 'index']);
         Route::post('/', [CourseManagementApiController::class, 'store']);
         Route::post('/{id}/co', [CourseManagementApiController::class, 'addCourseOutcome']);
+        Route::put('/{courseId}/co/{coId}', [CourseManagementApiController::class, 'updateCourseOutcome']);
+        Route::delete('/{courseId}/co/{coId}', [CourseManagementApiController::class, 'deleteCourseOutcome']);
         Route::delete('/{id}', [CourseManagementApiController::class, 'destroy']);
     });
 

@@ -194,6 +194,9 @@ class NbaSarCalculationTest extends TestCase
 
     public function test_super_admin_can_create_new_staff_member(): void
     {
+        $admin = \App\Models\User::where('role', 'Super Admin')->first();
+        $this->actingAs($admin);
+
         $response = $this->postJson('/api/v1/staff', [
             'name' => 'Dr. Vikramaditya Sen',
             'email' => 'vikram@niet-tech.edu.in',
@@ -221,6 +224,9 @@ class NbaSarCalculationTest extends TestCase
 
     public function test_super_admin_can_toggle_staff_active_status(): void
     {
+        $admin = \App\Models\User::where('role', 'Super Admin')->first();
+        $this->actingAs($admin);
+
         $user = \App\Models\User::where('email', 'faculty@niet-tech.edu.in')->first();
         $this->assertTrue($user->is_active);
 
@@ -239,6 +245,9 @@ class NbaSarCalculationTest extends TestCase
 
     public function test_super_admin_can_update_system_settings_and_branding(): void
     {
+        $admin = \App\Models\User::where('role', 'Super Admin')->first();
+        $this->actingAs($admin);
+
         $response = $this->postJson('/api/v1/settings', [
             'app_name' => 'Apex OBE Platform',
             'app_short_name' => 'APEX-NBA',
@@ -341,6 +350,9 @@ class NbaSarCalculationTest extends TestCase
 
     public function test_super_admin_cannot_reset_system_data_with_wrong_password(): void
     {
+        $admin = \App\Models\User::where('role', 'Super Admin')->first();
+        $this->actingAs($admin);
+
         $response = $this->postJson('/api/v1/settings/reset-academic-data', [
             'password' => 'WrongPassword@999',
         ]);
@@ -353,6 +365,9 @@ class NbaSarCalculationTest extends TestCase
 
     public function test_super_admin_can_reset_academic_and_score_data_with_valid_password(): void
     {
+        $admin = \App\Models\User::where('role', 'Super Admin')->first();
+        $this->actingAs($admin);
+
         // 1. Check initial data exists
         $this->assertGreaterThan(0, \App\Domains\Curriculum\Models\Course::count());
         $userCountBefore = \App\Models\User::count();
@@ -383,6 +398,9 @@ class NbaSarCalculationTest extends TestCase
 
     public function test_super_admin_can_restore_sample_demo_data_with_valid_password(): void
     {
+        $admin = \App\Models\User::where('role', 'Super Admin')->first();
+        $this->actingAs($admin);
+
         // 1. Reset first
         $this->postJson('/api/v1/settings/reset-academic-data', [
             'password' => 'Admin@123',
