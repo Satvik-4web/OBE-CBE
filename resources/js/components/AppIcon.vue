@@ -79,6 +79,11 @@
       <path d="M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6" />
       <rect x="6" y="14" width="12" height="8" rx="1" />
     </g>
+    <!-- Notifications / Bell -->
+    <g v-else-if="name === 'bell'">
+      <path d="M18 8a6 6 0 0 0-12 0c0 7-3 7-3 9h18c0-2-3-2-3-9" />
+      <path d="M13.73 21a2 2 0 0 1-3.46 0" />
+    </g>
 
     <!-- Settings / Sliders -->
     <g v-else-if="name === 'settings'">

@@ -29,6 +29,7 @@ class SarEvidenceApiController extends Controller
     {
         $request->validate([
             'evidence_file' => 'required|file|mimes:pdf|max:10240', // 10MB Max, PDF only
+            'upload_reason' => 'nullable|string|max:500',
         ]);
 
         $criterion = SarCriterion::firstOrCreate(
@@ -45,20 +46,50 @@ class SarEvidenceApiController extends Controller
             $fileName = time() . '_' . $file->getClientOriginalName();
             $path = $file->storeAs('sar_evidences', $fileName, 'public');
 
+            // Version control logic
+            $latestEvidence = $criterion->evidences()->orderBy('version', 'desc')->first();
+            $nextVersion = $latestEvidence ? ($latestEvidence->version + 1) : 1;
+            $previousFilePath = $latestEvidence ? $latestEvidence->file_path : null;
+
+            $uploaderName = $request->user_name ?? (auth()->user()->name ?? 'Faculty');
+
             $evidence = $criterion->evidences()->create([
+                'version' => $nextVersion,
                 'file_name' => $file->getClientOriginalName(),
                 'file_path' => $path,
-                'uploaded_by' => $request->user_name ?? 'Faculty', // Mock auth
+                'previous_file_path' => $previousFilePath,
+                'upload_reason' => $request->upload_reason ?? ($nextVersion > 1 ? "Version {$nextVersion} update" : "Initial submission"),
+                'uploaded_by' => $uploaderName,
             ]);
 
             return response()->json([
                 'success' => true,
-                'message' => 'Evidence uploaded successfully',
+                'message' => "Evidence Version {$nextVersion} uploaded successfully",
                 'data' => $evidence
             ], 201);
         }
 
         return response()->json(['success' => false, 'message' => 'File not provided.'], 400);
+    }
+
+    public function history($reportId, $criterionNumber)
+    {
+        $criterion = SarCriterion::where('sar_report_id', $reportId)
+            ->where('criterion_number', $criterionNumber)
+            ->first();
+
+        if (!$criterion) {
+            return response()->json(['success' => true, 'data' => []]);
+        }
+
+        $history = $criterion->evidences()
+            ->orderBy('version', 'desc')
+            ->get();
+
+        return response()->json([
+            'success' => true,
+            'data' => $history
+        ]);
     }
 
     public function destroy($evidenceId)

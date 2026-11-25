@@ -83,6 +83,19 @@ class SarWorkflowApiController extends Controller
                 $validated['remarks'] ?? null
             );
 
+            // Trigger In-App Notification
+            \App\Models\Notification::create([
+                'user_id' => auth()->id() ?? 1,
+                'type' => 'SAR_STATE_CHANGE',
+                'title' => 'SAR Workflow Transitioned',
+                'message' => "SAR Report state transitioned to {$validated['target_state']} by {$validated['user_name']} ({$validated['user_role']}).",
+                'data' => [
+                    'report_id' => $reportId,
+                    'target_state' => $validated['target_state'],
+                    'user_name' => $validated['user_name'],
+                ],
+            ]);
+
             return response()->json([
                 'success' => true,
                 'message' => "Successfully transitioned SAR to {$validated['target_state']}.",

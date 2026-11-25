@@ -9,6 +9,7 @@ use App\Domains\SAR\Models\SarCriterion;
 use App\Domains\Faculty\Services\SfrCalculatorService;
 use App\Domains\Faculty\Services\FqiCalculatorService;
 use App\Domains\Faculty\Services\CadreRatioCalculatorService;
+use App\Domains\Faculty\Services\CriterionFiveService;
 use App\Domains\Attainment\Services\AttainmentEngine;
 use App\Domains\Student\Services\SuccessRateCalculatorService;
 use App\Domains\Student\Services\PlacementIndexService;
@@ -23,12 +24,14 @@ class SarReportCompilerService
     protected SuccessRateCalculatorService $successService;
     protected PlacementIndexService $placementService;
     protected BudgetAnalysisService $budgetService;
+    protected CriterionFiveService $criterionFiveService;
 
     public function __construct()
     {
         $this->sfrService = new SfrCalculatorService();
         $this->fqiService = new FqiCalculatorService();
         $this->cadreService = new CadreRatioCalculatorService();
+        $this->criterionFiveService = new CriterionFiveService();
         $this->attainmentEngine = new AttainmentEngine();
         $this->successService = new SuccessRateCalculatorService();
         $this->placementService = new PlacementIndexService();
@@ -51,6 +54,7 @@ class SarReportCompilerService
         $successData = $this->successService->calculate($program);
         $placementData = $this->placementService->calculate($program);
         $budgetData = $this->budgetService->analyze($program);
+        $c5FullData = $this->criterionFiveService->calculateFullCriterion($program);
 
         // Criterion 1: Vision, Mission & PEOs (Max 60)
         $c1Marks = 54.0;
@@ -133,7 +137,7 @@ class SarReportCompilerService
                 'max_marks' => 200.0,
                 'claimed_marks' => $c5Marks,
                 'percentage' => round(($c5Marks / 200.0) * 100, 1),
-                'summary' => "Average SFR: {$sfrData['avg_sfr']}:1, Average FQI: {$fqiData['avg_fqi']}/25.0, Cadre Proportion: {$cadreData['claimed_marks']}/25.0.",
+                'summary' => "Tier-II Evaluated Cycle: Average SFR: {$c5FullData['sub_criteria']['5.1']['avg_sfr']}:1 ({$c5FullData['sub_criteria']['5.1']['claimed_marks']}/30M), FQI: {$c5FullData['sub_criteria']['5.2']['avg_fqi']}/25M, Cadre Proportion: {$c5FullData['sub_criteria']['5.3']['claimed_marks']}/25M, Visiting Faculty: {$c5FullData['sub_criteria']['5.4']['claimed_marks']}/10M, Faculty Retention: {$c5FullData['sub_criteria']['5.5']['claimed_marks']}/10M. Total: {$c5FullData['total_claimed_marks']}/100 Marks.",
             ],
             6 => [
                 'number' => 6,
@@ -209,6 +213,7 @@ class SarReportCompilerService
                 'sfr' => $sfrData,
                 'fqi' => $fqiData,
                 'cadre' => $cadreData,
+                'criterion5' => $c5FullData,
                 'attainment' => $attainmentData,
                 'success_rate' => $successData,
                 'placement' => $placementData,
