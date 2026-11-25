@@ -530,7 +530,7 @@
           </div>
 
           <!-- Section 5 -->
-          <div v-if="hasAccess('workflow') || hasAccess('document')">
+          <div v-if="hasAccess('workflow') || hasAccess('academic_audits') || hasAccess('document')">
             <div
               class="px-3 text-[10px] font-semibold uppercase tracking-wider text-slate-400 mb-1.5"
             >
@@ -559,6 +559,29 @@
                 />
 
                 <span>SAR State Machine & Audit</span>
+              </button>
+
+              <button
+                v-if="hasAccess('academic_audits')"
+                @click="activeView = 'academic_audits'"
+                class="w-full px-3 py-2 rounded-lg text-xs font-medium flex items-center gap-2.5 transition text-left"
+                :class="
+                  activeView === 'academic_audits'
+                    ? 'bg-indigo-600 text-white shadow-sm font-semibold'
+                    : 'text-slate-300 hover:text-white hover:bg-slate-800/60'
+                "
+              >
+                <AppIcon
+                  name="clipboard"
+                  size="15"
+                  :custom-class="
+                    activeView === 'academic_audits'
+                      ? 'text-white'
+                      : 'text-slate-400'
+                  "
+                />
+
+                <span>Academic Audits</span>
               </button>
 
               <button
@@ -906,6 +929,11 @@
               />
             </section>
 
+            <!-- 17b. Academic Audits -->
+            <section v-else-if="activeView === 'academic_audits'">
+              <AcademicAuditView />
+            </section>
+
             <!-- 18. Printable SAR -->
             <section v-else-if="activeView === 'document'">
               <PrintableSarReport :sar="sarData" />
@@ -944,6 +972,7 @@ import StudentMarksUploadView from './StudentMarksUploadView.vue';
 import CoursePerformanceView from './CoursePerformanceView.vue';
 import CloWorkflowView from './CloWorkflowView.vue';
 import CriterionFiveView from './CriterionFiveView.vue';
+import AcademicAuditView from './AcademicAuditView.vue';
 export default {
   name: 'MainApp',
 
@@ -971,6 +1000,7 @@ export default {
     CoursePerformanceView,
     CloWorkflowView,
     CriterionFiveView,
+    AcademicAuditView,
   },
 
   data() {
@@ -1016,6 +1046,7 @@ export default {
         finance: ['Super Admin', 'HOD', 'IQAC Admin'],
         criteria: ['Super Admin', 'HOD', 'Faculty', 'IQAC Admin', 'Evaluator'],
         workflow: ['Super Admin', 'HOD', 'IQAC Admin', 'Evaluator'],
+        academic_audits: ['Super Admin', 'HOD', 'Faculty', 'IQAC Admin', 'Evaluator'],
         document: ['Super Admin', 'HOD', 'Faculty', 'IQAC Admin', 'Evaluator'],
       },
     };
@@ -1040,6 +1071,7 @@ export default {
         finance: 'Financial Resources & Budget Utilization',
         criteria: 'Criteria 1 - 10 Self-Assessment Breakdown',
         workflow: 'SAR Approval State Machine & Audit Trail',
+        academic_audits: 'Academic Audits & Compliance Reviews',
         document: 'Official NBA Tier-II SAR Report Document',
         performance: 'Year-on-Year Course Performance',
         clo_workflow: 'CLO & Articulation Master Workflow',

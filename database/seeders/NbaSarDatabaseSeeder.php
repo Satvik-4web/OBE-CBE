@@ -1235,6 +1235,11 @@ class NbaSarDatabaseSeeder extends Seeder
         ];
 
         foreach ($criteriaData as $c) {
+            $summaryObs = null;
+            if ($c['num'] === 1) {
+                $summaryObs = 'Vision: At TIET, our vision rests on two pillars: (1) A deeply meaningful experience for all stakeholders that shapes lives with wisdom, purpose, and compassion; and (2) Socially impactful research that advances knowledge while solving real challenges of industry, society, and humanity. Together, they embody our commitment to seeking excellence for all. | Mission: TIET exists to educate and empower students while advancing knowledge through research, so that we serve our society with wisdom, compassion, and a commitment to seek excellence.';
+            }
+
             SarCriterion::updateOrCreate(
                 ['sar_report_id' => $sar->id, 'criterion_number' => $c['num']],
                 [
@@ -1243,6 +1248,7 @@ class NbaSarDatabaseSeeder extends Seeder
                     'claimed_marks' => $c['claimed'],
                     'status' => 'VERIFIED',
                     'is_verified' => true,
+                    'summary_observations' => $summaryObs,
                 ]
             );
         }

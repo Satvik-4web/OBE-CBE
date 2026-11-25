@@ -105,7 +105,7 @@ class SarReportCompilerService
                 'max_marks' => 60.0,
                 'claimed_marks' => $c1Marks,
                 'percentage' => round(($c1Marks / 60.0) * 100, 1),
-                'summary' => 'State of the art Vision & Mission statements mapped to PEOs with 4 stakeholder feedback loops.',
+                'summary' => 'Vision: At TIET, our vision rests on two pillars: (1) A deeply meaningful experience for all stakeholders that shapes lives with wisdom, purpose, and compassion; and (2) Socially impactful research that advances knowledge while solving real challenges of industry, society, and humanity. Together, they embody our commitment to seeking excellence for all. | Mission: TIET exists to educate and empower students while advancing knowledge through research, so that we serve our society with wisdom, compassion, and a commitment to seek excellence.',
             ],
             2 => [
                 'number' => 2,

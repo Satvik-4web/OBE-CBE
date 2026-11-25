@@ -17,6 +17,9 @@ use App\Http\Controllers\Api\V1\SarWorkflowApiController;
 use App\Http\Controllers\Api\V1\SarReportExportApiController;
 use App\Http\Controllers\Api\V1\StudentMarksCsvController;
 use App\Http\Controllers\Api\V1\AssessmentBlueprintController;
+use App\Http\Controllers\Api\V1\AcademicAuditApiController;
+use App\Http\Controllers\Api\V1\CriterionScoreApiController;
+use App\Http\Controllers\Api\V1\NbaReadinessApiController;
 
 Route::prefix('v1')->group(function () {
 
@@ -90,17 +93,31 @@ Route::prefix('v1')->group(function () {
         Route::get('/alerts', [AttainmentApiController::class, 'getLowAttainmentAlerts']);
     });
 
+    // NBA SAR Criterion Scores
+    Route::get(
+        '/sar/criterion-scores',
+        [CriterionScoreApiController::class, 'index']
+    );
+
+    // NBA Readiness
+    Route::get(
+        '/sar/nba-readiness',
+        [NbaReadinessApiController::class, 'index']
+    );
+
+    // Academic Audits CRUD
+    Route::apiResource('academic-audits', AcademicAuditApiController::class);
+
     // 7. NBA SAR Engines & Matrices
     Route::prefix('nba')->group(function () {
 
         // Executive Dashboard & Overview
         Route::get('/dashboard', [NbaDashboardApiController::class, 'index']);
 
-        // Criterion 5: Faculty Engines (SFR, FQI, Cadre)
-        Route::get('/sfr-metrics', [SfrCalculatorApiController::class, 'getMetrics']);
+        // Criterion 5 Engines: SFR, FQI, Cadre Simulators
+        Route::get('/sfr-summary', [SfrCalculatorApiController::class, 'summary']);
         Route::post('/sfr-simulate', [SfrCalculatorApiController::class, 'simulate']);
-
-        Route::get('/fqi-metrics', [FqiCalculatorApiController::class, 'getMetrics']);
+        Route::get('/fqi-summary', [FqiCalculatorApiController::class, 'summary']);
         Route::post('/fqi-simulate', [FqiCalculatorApiController::class, 'simulate']);
 
         // Criterion 2 & 3: Curriculum & Articulation Matrix
